@@ -1,0 +1,354 @@
+dreampie;Python script, ASCII text executable;61
+winswitch_ssh_session;Python script, ASCII text executable;74
+blueberry;Python script, ASCII text executable;75
+winswitch_ssh_Xnest;Python script, ASCII text executable;77
+pydoc2.7;Python script, ASCII text executable;78
+pydoc3.7;Python script, ASCII text executable;78
+blueberry-tray;Python script, ASCII text executable;80
+winswitch_open_remotely;Python script, ASCII text executable;81
+winswitch_away;Python script, ASCII text executable;84
+winswitch_back;Python script, ASCII text executable;84
+wcw;Python script, ASCII text executable;85
+winswitch_command_wrapper;Python script, ASCII text executable;85
+winswitch_applet;Python script, ASCII text executable;87
+winswitch_server;Python script, ASCII text executable;87
+object-remote-node;Perl script text executable;89
+2to3;Python script, ASCII text executable;95
+winswitch_client;Python script, ASCII text executable;99
+winswitch_stdio_tcp;Python script, ASCII text executable;110
+winswitch_stdio_socket;Python script, ASCII text executable;116
+perldoc;Perl script text executable;118
+python3.7m-config;a /usr/bin/sh script, ASCII text executable;177
+cinnamon-slideshow;Python script, ASCII text executable;179
+cinnamon-settings-users;Python script, ASCII text executable;183
+cinnamon-screensaver-lock-dialog;Python script, ASCII text executable;186
+pygtk-demo;a /usr/bin/python2 script, ASCII text executable;189
+lightdm-settings;Python script, ASCII text executable;216
+easy_install-2.7;Python script, ASCII text executable;234
+easy_install-3.7;Python script, ASCII text executable;234
+easy_install;Python script, ASCII text executable;234
+cinnamon-looking-glass;Python script, ASCII text executable;254
+vimiv;Python script, ASCII text executable;258
+object-remote-slave;Perl script text executable;283
+stemmer-da;Perl script text executable;286
+xlet-settings;Python script, ASCII text executable;286
+cinnamon-desktop-editor;Python script, ASCII text executable;287
+python-argcomplete-tcsh;a /usr/bin/sh script, ASCII text executable;318
+powerline-lint;Python script, ASCII text executable;343
+rssdler;Python script, ASCII text executable;356
+isort-3.7;Python script, ASCII text executable;372
+python3-raven;Python script, ASCII text executable;372
+http;Python script, ASCII text executable;373
+pyrsa-sign-2;Python script, ASCII text executable;376
+distro;Python script, ASCII text executable;377
+nosetests-2.7;Python script, ASCII text executable;377
+pylint-3.7;Python script, ASCII text executable;377
+pytest-3.7;Python script, ASCII text executable;377
+pudb3;Python script, ASCII text executable;378
+epylint-3.7;Python script, ASCII text executable;379
+py.test-3.7;Python script, ASCII text executable;379
+symilar-3.7;Python script, ASCII text executable;379
+pyrsa-keygen-2;Python script, ASCII text executable;380
+pyrsa-verify-2;Python script, ASCII text executable;380
+trial-2.7;Python script, ASCII text executable;381
+pyrsa-decrypt-2;Python script, ASCII text executable;382
+pyrsa-encrypt-2;Python script, ASCII text executable;382
+pysmell;Python script, ASCII text executable;382
+vint;Python script, ASCII text executable;382
+pyreverse-3.7;Python script, ASCII text executable;383
+twistd-2.7;Python script, ASCII text executable;383
+pyrsa-priv2pub-2;Python script, ASCII text executable;384
+python2.7-futurize;Python script, ASCII text executable;384
+python3.7-futurize;Python script, ASCII text executable;384
+vidcutter;Python script, ASCII text executable;384
+cssparse;Python script, ASCII text executable;387
+fontdump;Python script, ASCII text executable;387
+pyflakes-2.7;Python script, ASCII text executable;387
+pyflakes-3.7;Python script, ASCII text executable;387
+python3-coverage;Python script, ASCII text executable;387
+tabulate;Python script, ASCII text executable;387
+chardetect;Python script, ASCII text executable;388
+python2.7-pasteurize;Python script, ASCII text executable;388
+python3.7-pasteurize;Python script, ASCII text executable;388
+watchmedo-3.7;Python script, ASCII text executable;389
+csscapture;Python script, ASCII text executable;391
+csscombine;Python script, ASCII text executable;391
+pygmentize;Python script, ASCII text executable;391
+pyinotify;Python script, ASCII text executable;392
+set-default-locale;Python script, ASCII text executable;393
+openshot-qt;Python script, ASCII text executable;394
+custodia-cli-3;Python script, ASCII text executable;395
+custodia-cli;Python script, ASCII text executable;395
+proselint;Python script, ASCII text executable;395
+sdl-config.pl;Perl script text executable;396
+tldextract;Python script, ASCII text executable;397
+pyrsa-decrypt-bigfile-2;Python script, ASCII text executable;398
+pyrsa-encrypt-bigfile-2;Python script, ASCII text executable;398
+python2-html2text;Python script, ASCII text executable;401
+httpwatcher;Python script, ASCII text executable;402
+mod_wsgi-express-3;Python script, ASCII text executable;403
+pip2.7;Python script, ASCII text executable;408
+pip2;Python script, ASCII text executable;408
+pip3.7;Python script, ASCII text executable;408
+pip3;Python script, ASCII text executable;408
+pip;Python script, ASCII text executable;408
+jabber-roster;Python script, ASCII text executable;412
+rct;Python script, ASCII text executable;416
+rhsm-debug;Python script, ASCII text executable;430
+pyvenv-3.7;Python script, ASCII text executable;435
+moose-outdated;Perl script text executable;436
+require-perl-tags;Perl script text executable;454
+cpanp-run-perl;Perl script text executable;468
+markdown2-3.7;Python script, ASCII text executable;479
+cinnamon-menu-editor;Python script, ASCII text executable;511
+stemmer-no;Perl script text executable;517
+stemmer-se;Perl script text executable;517
+xpra_signal_listener;Python script, ASCII text executable;550
+powerline-config;Python script, ASCII text executable;582
+upload-system-info;Python script, ASCII text executable;605
+cinnamon-subprocess-wrapper;Python script, ASCII text executable;652
+remoterepl;Perl script text executable;680
+xpra;Python script, ASCII text executable;764
+pastebin;Python script, ASCII text executable;776
+xpra_launcher;Python script, ASCII text executable;811
+python3-cairosvg;Python script, UTF-8 Unicode text executable;824
+onboard-settings;Python script, UTF-8 Unicode text executable;845
+powerline-render;Python script, ASCII text executable;886
+redshift-gtk;Python script, ASCII text executable;985
+ipa;Python script, ASCII text executable;987
+ttf2pt1_cntstems;Perl script text executable;1002
+crc32;Perl script text executable;1043
+package-stash-conflicts;Perl script text executable;1051
+cinnamon-json-makepot;Python script, ASCII text executable;1077
+ttf2pt1_showdf;Perl script text executable;1124
+netaddr3;Python script, ASCII text executable;1161
+perl-tags;Perl script text executable;1177
+mp2bug;Perl script text executable;1186
+cinnamon-preview-gtk-theme;Python script, ASCII text executable;1224
+dumpcpandist;Perl script text executable;1229
+pomdump;Perl script text executable;1240
+podspell;Perl script text executable;1248
+htmltree;Perl script text executable;1258
+onboard;Python script, UTF-8 Unicode text executable;1274
+dnf-automatic;Python script, ASCII text executable;1279
+cinnamon-settings;Python script, ASCII text executable;1300
+tinyrepl;Perl script text executable;1336
+dbilogstrip;Perl script text executable;1380
+jsonlint-2.7;Python script, ASCII text executable;1503
+jsonlint-3.7;Python script, ASCII text executable;1503
+podlint;Perl script text executable;1537
+register-python-argcomplete;Python script, ASCII text executable;1576
+ttf2pt1_lst;Perl script text executable;1589
+slick-greeter-check-hidpi;Python script, ASCII text executable;1627
+instperf;Python script, ASCII text executable;1745
+cinnamon-killer-daemon;Python script, ASCII text executable;1812
+coqtags;Perl script text executable;1837
+dnf-3;Python script, ASCII text executable;1942
+slick-greeter-set-keyboard-layout;Python script, ASCII text executable;1962
+cinnamon-launcher;Python script, ASCII text executable;2011
+ibus-setup-cangjie;Python script, ASCII text executable;2015
+isartags;Perl script text executable;2041
+ecarack;Python script, ASCII text executable;2071
+dnfdragora-updater;Python script, UTF-8 Unicode text executable;2074
+tidy_changelog;Perl script text executable;2111
+cinnamon-file-dialog;Python script, ASCII text executable;2144
+abrt-action-check-oops-for-alt-component;Python script, ASCII text executable;2188
+legotags;Perl script text executable;2218
+caribou-preferences;Python script, ASCII text executable;2259
+lwp-mirror;Perl script text executable;2413
+foomatic-searchprinter;Perl script text executable;2489
+cinnamon-install-spice;Python script, ASCII text executable;2522
+podselect;Perl script text executable;2527
+ptardiff;Perl script text executable;2535
+python-argcomplete-check-easy-install-script;Python script, ASCII text executable;2558
+svgakeymap;Perl script text executable;2710
+lwp-dump;Perl script text executable;2711
+anaconda-cleanup;Python script, ASCII text executable;2744
+grog;Perl script text executable;2782
+abrt-action-analyze-vmcore;Python script, ASCII text executable;2818
+pdfmom;Perl script text executable;2886
+cpaninject;Perl script text executable;2969
+encguess;Perl script text executable;2980
+blivet-gui-daemon;Python script, ASCII text executable;3109
+readnsstate;Python script, ASCII text executable;3125
+module-starter;Perl script text executable;3281
+cpanp;Perl script text executable;3305
+findrule;Perl script text executable;3327
+dbinfo;Perl script text executable;3367
+abrt-action-list-dsos;Python script, ASCII text executable;3387
+extractres;Perl script text executable;3411
+fros;Python script, ASCII text executable;3414
+flatpak-coredumpctl;Python script, ASCII text executable;3433
+activate-global-python-argcomplete;Python script, ASCII text executable;3455
+ptar;Perl script text executable;3456
+pki-server-nuxwdog;Python script, ASCII text executable;3497
+abrt-action-perform-ccpp-analysis;Python script, ASCII text executable;3551
+python3.7m-x86_64-config;a /usr/bin/sh script, ASCII text executable;3636
+blivet-gui;Python script, ASCII text executable;3647
+mmroff;Perl script text executable;3838
+cpandeps;Perl script text executable;3841
+pom2;Perl script text executable;3891
+pod2usage;Perl script text executable;3948
+foomatic-ppd-options;Perl script text executable;4000
+nytprofcg;Perl script text executable;4075
+cinnamon-desktop-migrate-mediakeys;Python script, ASCII text executable;4104
+ifnames;Perl script text executable;4128
+pod2html;Perl script text executable;4134
+instmodsh;Perl script text executable;4194
+mptopdf;symbolic link to /usr/share/texlive/texmf-dist/scripts/context/perl/mptopdf.pl;4229
+cpan-mirrors;Perl script text executable;4288
+ptargrep;Perl script text executable;4299
+pl2pm;Perl script text executable;4533
+json_pp;Perl script text executable;4574
+findsmb;Perl script text executable;4604
+foomatic-compiledb;Perl script text executable;4629
+frozen-bubble-editor;Perl script text executable;4700
+nytprofpf;Perl script text executable;4811
+dnfdragora;Python script, ASCII text executable;4812
+xpath;Perl script text executable;4857
+fwbackups-run;Python script, ASCII text executable;4980
+httpdtap;Python script, ASCII text executable;5043
+xsubpp;Perl script text executable;5080
+dm_zdump;Perl script text executable;5109
+gpinyin;Perl script text executable;5129
+use-devel-assertos;Perl script text executable;5143
+pathfix.py;a /usr/bin/python3.7 script, ASCII text executable;5206
+psjoin;Perl script text executable;5218
+shell-quote;Perl script text executable;5473
+minicpan;Perl script text executable;5488
+dm_date;Perl script text executable;5513
+seapplet;Python script, ASCII text executable;5534
+nytprofcsv;Perl script text executable;5549
+abrt-action-find-bodhi-update;Python script, ASCII text executable;5587
+roff2dvi;Perl script text executable;5721
+roff2html;Perl script text executable;5721
+roff2pdf;Perl script text executable;5721
+roff2ps;Perl script text executable;5721
+roff2text;Perl script text executable;5721
+roff2x;Perl script text executable;5721
+c_rehash;Perl script text executable;6188
+dbiprof;Perl script text executable;6206
+cpan-upload;Perl script text executable;6344
+fprofpp;Perl script text executable;6452
+mtrace;Perl script text executable;6465
+tsget.pl;Perl script text executable;6575
+nytprofcalls;Perl script text executable;6627
+gperl;Perl script text executable;6639
+abrt-action-check-oops-for-hw-error;Python script, ASCII text executable;6813
+abrt-action-analyze-core;Python script, ASCII text executable;6894
+json_xs;Perl script text executable;7013
+msgfmt3.7.py;a /usr/bin/python3.7 script, UTF-8 Unicode text executable;7080
+config_data;Perl script text executable;7138
+avahi-bookmarks;Python script, ASCII text executable;7179
+urifind;Perl script text executable;7272
+fwbackups-runonce;Python script, ASCII text executable;7354
+votl_maketags;Perl script text executable;7429
+CA.pl;Perl script text executable;7597
+cl-dump.pl;Perl script text executable;7696
+fvwm-menu-xlock;Perl script text executable;7729
+flatpak-bisect;Python script, ASCII text executable;7849
+fedrepos;Python script, ASCII text executable;8010
+analog;Python script, ASCII text executable;8018
+groffer;Perl script text executable;8050
+cpan;Perl script text executable;8056
+fluxbox-xdg-menu;Python script, ASCII text executable;8118
+piconv;Perl script text executable;8271
+purple-remote;Python script, ASCII text executable;8282
+html2wiki;Perl script text executable;8388
+autoheader;Perl script text executable;8534
+mimeopen;Perl script text executable;8626
+dshbak;Perl script text executable;8638
+tpage;Perl script text executable;9068
+abrt-handle-upload;Python script, ASCII text executable;9110
+ogonkify;Perl script text executable;9307
+abrt-action-notify;Python script, ASCII text executable;9665
+foomatic-ppdfile;Perl script text executable;9788
+shasum;Perl script text executable;9892
+hmaptool;a /usr/bin/python3 script, ASCII text executable;9972
+cpanel_json_xs;Perl script text executable;9993
+rpmdiff;Python script, UTF-8 Unicode text executable;10211
+lwp-download;Perl script text executable;10292
+purple-url-handler;Python script, ASCII text executable;10392
+cinnamon-xlet-makepot;Python script, ASCII text executable;10479
+pod2text;Perl script text executable;10803
+perlivp;Perl script text executable;10813
+fileshareset;Perl script text executable;11003
+foomatic-ppd-to-xml;Perl script text executable;11907
+mimetype;Perl script text executable;12060
+rpmlint;Python script, ASCII text executable;12212
+abrt-action-install-debuginfo;Python script, ASCII text executable;12541
+powerline-daemon;Python script, UTF-8 Unicode text executable;12808
+avahi-discover;Python script, ASCII text executable;13152
+prove;Perl script text executable;13562
+sensors-conf-convert;Perl script text executable;13647
+chcat;a /usr/bin/python3 -Es script, ASCII text executable;13881
+composeglyphs;Perl script text executable;14011
+ttf2pt1_showg;Perl script text executable;14172
+lsusb.py;Python script, ASCII text executable;14273
+fvwm-convert-2.6;Perl script text executable;14415
+nytprofmerge;Perl script text executable;14509
+ds-logpipe.py;Python script, ASCII text executable;14599
+pod2man;Perl script text executable;15034
+rxe_cfg;Perl script text executable;15133
+audit2allow;a /usr/bin/python3 -Es script, ASCII text executable;15197
+jack_control;Python script, ASCII text executable;15722
+fvwm-perllib;Perl script text executable;15851
+GET;Perl script text executable;16200
+HEAD;Perl script text executable;16200
+lwp-request;Perl script text executable;16200
+POST;Perl script text executable;16200
+gnome-abrt;Python script, UTF-8 Unicode text executable;16335
+ss2;Python script, ASCII text executable;16966
+dtrace;Python script, ASCII text executable;17061
+autoscan;Perl script text executable;17124
+sandbox;a /usr/bin/python3 -Es script, ASCII text executable;18033
+glilypond;Perl script text executable;18406
+splain;Perl script text executable;19150
+pod2texi;Perl script text executable;19843
+autoreconf;Perl script text executable;21066
+pygettext3.7.py;a /usr/bin/python3.7 script, ISO-8859 text executable;21547
+cpan2dist;Perl script text executable;21735
+fvwm-menu-directory;Perl script text executable;23459
+fpaste;Python script, ASCII text executable;24880
+sealert;Python script, ASCII text executable;27495
+dbgen.pl;Perl script text executable;28194
+flamegraph.pl;Perl script text executable;28370
+chem;Perl script text executable;29170
+h2ph;Perl script text executable;29224
+autom4te;Perl script text executable;32181
+fvwm-menu-desktop;Python script, ASCII text executable;33867
+autoupdate;Perl script text executable;33872
+cpanspec;Perl script text executable;33962
+fvwm-menu-headlines;Perl script text executable;34706
+foomatic-printjob;Perl script text executable;35032
+aclocal-1.16;Perl script text executable;36478
+aclocal;Perl script text executable;36478
+s3fs;Python script, ASCII text executable;39043
+ttree;Perl script text executable;39136
+repl-monitor.pl;Perl script text executable;40323
+perlcritic;Perl script text executable;41013
+perlbug;Perl script text executable;45967
+perlthanks;Perl script text executable;45967
+zipdetails;Perl script text executable;50625
+texi2any;Perl script text executable;51323
+kvm_stat;Python script, ASCII text executable;57961
+h2xs;Perl script text executable;60866
+ds-replcheck;Python script, ASCII text executable;62015
+gropdf;Perl script text executable;64417
+fslint-gui;Python script, UTF-8 Unicode text executable;80263
+nytprofhtml;Perl script text executable;80341
+require-perl-tags-packed;Perl script text executable;85716
+ssh-installkeys;Python script, ASCII text executable;87383
+logconv.pl;Perl script text executable;93756
+firewall-offline-cmd;Python script, ASCII text executable;103603
+firewall-cmd;Python script, ASCII text executable;116192
+perltidy;Perl script text executable;131792
+html2ps;Perl script text executable;132298
+foomatic-configure;Perl script text executable;136767
+afmtodit;Perl script text executable;165795
+automake-1.16;Perl script text executable;257949
+automake;Perl script text executable;257949
+exiftool;Perl script text executable;289072
+frozen-bubble;Perl script text executable;299453
+firewall-config;Python script, ASCII text executable;332129
+inxi;Perl script text executable;651753
