@@ -1,8 +1,13 @@
 #!/usr/bin/env python3
+r'''This program extracts "scripts" in "bin" (executable
+    directories. So far, only /usr/bin was used. This version 
+    hopes to use the same basic logic of get_scripts_in_usr_bin.py'''
 
 import os
 import sys
 import stat
+import argparse
+# args = directory, directories or 'all'
 from collections import namedtuple
 DEBUG = 0
 
@@ -16,23 +21,85 @@ DEBUG = 0
 # (from 'stat' documentation).
 
 
+
+def parse_args():
+{
+    parser=argparse.ArgumentParser(description='Parse programs few arguments')
+    parser.add_argument('-v','--verbose',
+                        help='increase output verbosity.' 
+                        type=int,choices=[0,1,2,3,4],required=False)
+    parser.add_argument('-g','--debug', help='set debug level (0-4)',
+                        type=int,choices=[0,1,2,3,4],
+                        required=False)
+    parser.add_argument('-d', '--directory',action=store_const.type=str,
+                        help='The directory for which you want to ' \
+                        'search for scripts.', nargs=1,required=True)
+
+    args = parser.parse_args()
+    return args;
+}    
+
+# args = parse_args in if __name__ == __main__
+global args
+
+
+
+
+class Scripts:
+{
+
+    import deque
+    
+#    self.scripts=namedtuple(progname,filetype,size)[]
+                            
+    def __init__(directory=/usr/bin,verbose=0,debug=0):
+        self.directory = directory
+        self.verbose = verbose
+        self.debug = debug
+        self.hoq = 0 #for now (hoq = head of queue)
+        self.toq = len(Scripts) #for now (toq = tail of queue)
+
+
+/*
+    lambda()
+        print ('Directory is {}'.format(self.directory))
+        print ('Verbose is {)'.format(self.verbose))
+        print ('Debug is {}'.format(self.debug))
+                 
+*/
+    def add_script_to_Scripts(self,finfo):
+        Script[progname] = finfo.programe
+        Script[filetype] = finfo.filetype
+        Script[size] = str(finfo.size)
+        push(Scripts,Script)
+
+
+    
+    def get_record_ready_to_write
+        '''get top script'''
+    
+
+}
+                                            
+
+
+
+
 def write_scripts_to_disk():
-    ''' write scripts to disk (scripts from /usr/bin) '''
+    ''' write scripts to disk (scripts from some /bin directory)''
 
     global scripts
     global start
     logdir = start
-    sfile = logdir + os.sep + 'scripts-in-usr-bin.txt'
+    sfile = logdir + os.sep + 'scripts-in-{}-{}.txt'.format(dirname0,basename0)
     if (DEBUG):
-        print('sfile is', sfile)
+        print('sfile is', sfile)                                                                                    
     with open(sfile, 'w') as f:
         for script in scripts:
-            if (DEBUG):
                 print(script)
             s1 = script.progname
             s1 = s1.rstrip()
-            s2 = script.filetype
-            s2 = s2.rstrip()
+            s2 = script.filetype1
             s3 = str(script.size)
             s3 = s3.rstrip()
             s = s1 + ';' + s2 + ';' + s3 + '\n'
@@ -64,7 +131,7 @@ def chopup_lines(cmd=None):
         n += 2
         line = line[n:x]
         save_filetype_line = line
-        if (DEBUG = 1):
+        if (DEBUG > 1):
             print('save filetype line is', save_filetype_line)
         try:
             rindex = line.index(',')
@@ -124,7 +191,7 @@ def main(program_name):
     print('Please be patient. Processing {} files takes time.'. \
           format(HowManyFiles))
     files.sort(key=str.lower)
-;    scripts = []
+    scripts = []
     for thisfile in files:
         thisfile = thisfile.rstrip()
         print('working on', thisfile.ljust(45), end='\r')
@@ -152,20 +219,23 @@ def main(program_name):
     return ((nfiles_in_scripts, HowManyFiles))
 # end of main()
 
+
 if __name__ == '__main__':
     global scripts
     global start
-#    ourdir = print("What directory would you like to parse? ")
-#    scripts = []
+    global  args
+    scripts=[]
     start = os.getcwd()
     program_name = os.path.basename(sys.argv[0])
     print('Executing', program_name)
+    args = parse_args()
+    
     nfiles_in_scripts, HowManyFiles = main(program_name)
+
     os.chdir(start)
-    print ('This program, {}, reports {} scripts\n'\
-           'among the {} programs in {}.'\
+    print ('This program, {} reports {} scripts\n' \
+           'among the {} programs in /usr/bin.'. \
             format(program_name,nfiles_in_scripts,HowManyFiles))
     sys.exit(nfiles_in_scripts)
                     
 # end of program.
-

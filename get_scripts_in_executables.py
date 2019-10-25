@@ -22,7 +22,7 @@ def write_scripts_to_disk():
     global scripts
     global start
     logdir = start
-    sfile = logdir + os.sep + 'scripts-in-usr-bin.txt'
+    sfile = logdir + os.sep + 'scripts-in-bindirs.txt'
     if (DEBUG):
         print('sfile is', sfile)
     with open(sfile, 'w') as f:
@@ -124,7 +124,7 @@ def main(program_name):
     print('Please be patient. Processing {} files takes time.'. \
           format(HowManyFiles))
     files.sort(key=str.lower)
-;    scripts = []
+    scripts = []
     for thisfile in files:
         thisfile = thisfile.rstrip()
         print('working on', thisfile.ljust(45), end='\r')
@@ -155,8 +155,8 @@ def main(program_name):
 if __name__ == '__main__':
     global scripts
     global start
-#    ourdir = print("What directory would you like to parse? ")
-#    scripts = []
+    ourdir = print("What directory would you like to parse? ")
+    scripts = []
     start = os.getcwd()
     program_name = os.path.basename(sys.argv[0])
     print('Executing', program_name)

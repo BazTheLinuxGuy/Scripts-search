@@ -1,0 +1,57 @@
+Class Bindir:
+    '''The purpose of this class is to hold the data
+    culled from each 'bin' directory in the same 
+    manner as in 'get_scripts_in_usr_bin.py'
+
+Data:
+The directory being processed.
+The files in that direcory, as a list.
+The three basic pieces of information for each file,
+specifically program name, file type and size in bytes.
+
+Methods:
+
+1. Figure out what kind of __init__ method
+is needed, if any.
+
+3. Async I/O ? To run more than one process
+    simultaneously.  multi-processing or threads?
+    (could need own class/es).
+
+2. Gather all programs into a list. The list should
+ideally include the programs's name, its size, and
+its type as reported by the 'file' program, and
+os.stat() if needed.
+
+4. Be ready tp output the data in a specified structures, as in
+"write_scriptas to disk," in get_scripts_in_usr_bin.py. Not nessary to
+follow the same formula, in case more info wants to be reported, such
+as stat_result elements, or other data.
+
+5. The same data should be ready to follow a similar procedure in
+order to print a hard-copy pf the results. (The former methos, step 4,
+is to be output to file, console, or (maybe a log file?)
+
+"Open space" should be left in the class in case new or
+recently-thought-of needs for the class.
+
+In general, the whole program needs to be ready to be expanded upon,
+especially by other users (such as programmers) who will undoubtedly
+think of things to add, a la, "Gee, it would be nice if your program
+did this, or that..."
+
+For now, the program should be operated and traversed through
+functions, methods, etc, as the current programs
+(get_scripts_in_use_bin.py). The program will look diffewrent,
+especially because of the use of the one main classm descrubed above,
+
+Current needs: argparse, so that command line parms should be
+accessed. The parms could ask, for exemple,that the program just
+process one or two oddball directories (such as the ones where gcc and
+related programs or located.)
+
+
+Future Niceties:
+
+
+

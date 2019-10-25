@@ -3,6 +3,7 @@
 import os
 import sys
 import stat
+import argparse
 from collections import namedtuple
 DEBUG = 0
 
@@ -64,7 +65,7 @@ def chopup_lines(cmd=None):
         n += 2
         line = line[n:x]
         save_filetype_line = line
-        if (DEBUG = 1):
+        if (DEBUG > 1):
             print('save filetype line is', save_filetype_line)
         try:
             rindex = line.index(',')
@@ -124,7 +125,7 @@ def main(program_name):
     print('Please be patient. Processing {} files takes time.'. \
           format(HowManyFiles))
     files.sort(key=str.lower)
-;    scripts = []
+    scripts = []
     for thisfile in files:
         thisfile = thisfile.rstrip()
         print('working on', thisfile.ljust(45), end='\r')
@@ -155,17 +156,16 @@ def main(program_name):
 if __name__ == '__main__':
     global scripts
     global start
-#    ourdir = print("What directory would you like to parse? ")
-#    scripts = []
+    scripts=[]
     start = os.getcwd()
     program_name = os.path.basename(sys.argv[0])
     print('Executing', program_name)
+
     nfiles_in_scripts, HowManyFiles = main(program_name)
     os.chdir(start)
-    print ('This program, {}, reports {} scripts\n'\
-           'among the {} programs in {}.'\
+    print ('This program, "{}" reports {} scripts\n' \
+           'among the {} programs in /usr/bin.'. \
             format(program_name,nfiles_in_scripts,HowManyFiles))
     sys.exit(nfiles_in_scripts)
                     
 # end of program.
-

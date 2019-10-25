@@ -1,0 +1,16 @@
+irb;Ruby script, ASCII text executable;504
+ri;Ruby script, ASCII text executable;506
+rdoc;Ruby script, ASCII text executable;510
+rmsgcat;Ruby script, ASCII text executable;528
+rmsgfmt;Ruby script, ASCII text executable;528
+rmsginit;Ruby script, ASCII text executable;530
+rmsgmerge;Ruby script, ASCII text executable;532
+rxgettext;Ruby script, ASCII text executable;532
+gem;Ruby script, ASCII text executable;542
+servicemenudeinstallation;Ruby script, ASCII text;1200
+ruby;Bourne-Again shell script, ASCII text executable;2409
+dislocker-find;Ruby script, UTF-8 Unicode text;3602
+servicemenuinstallation;Ruby script, ASCII text;3604
+erb;Ruby script, ASCII text;5082
+snmpcheck;Ruby script, ASCII text;33254
+luaotfload-tool;symbolic link to /usr/share/texlive/texmf-dist/scripts/luaotfload/luaotfload-tool.lua;51858

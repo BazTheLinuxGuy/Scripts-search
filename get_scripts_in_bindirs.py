@@ -21,8 +21,9 @@ def write_scripts_to_disk():
 
     global scripts
     global start
+    global ourdir
     logdir = start
-    sfile = logdir + os.sep + 'scripts-in-usr-bin.txt'
+    sfile = logdir + os.sep + 'scripts-in-bindirs.txt'
     if (DEBUG):
         print('sfile is', sfile)
     with open(sfile, 'w') as f:
@@ -38,7 +39,7 @@ def write_scripts_to_disk():
             s = s1 + ';' + s2 + ';' + s3 + '\n'
             f.write(s)
 
-    print('That does it for',sfile)
+#    print('That does it for',sfile)
     return len(scripts)
 
 
@@ -64,7 +65,7 @@ def chopup_lines(cmd=None):
         n += 2
         line = line[n:x]
         save_filetype_line = line
-        if (DEBUG = 1):
+        if (DEBUG):
             print('save filetype line is', save_filetype_line)
         try:
             rindex = line.index(',')
@@ -112,19 +113,20 @@ def main(program_name):
         scripts and preps them for more processing down the road.'''
 
     global scripts
+    global ourdir
     scripts = []
     here2 = os.getcwd()
     statinfo = namedtuple('statinfo', 'st_mode, st_ino, st_dev, '
                           'st_nlink,st_uid, st_gid, t_size, st_atime,'
                           ' st_mtime, st_ctime')
     fileinfo = namedtuple('fileinfo', 'progname, filetype, size')
-    os.chdir('/usr/bin')
-    files = os.listdir('/usr/bin')
+    os.chdir(ourdir)
+    files = os.listdir(ourdir)
     HowManyFiles = len(files)
     print('Please be patient. Processing {} files takes time.'. \
           format(HowManyFiles))
     files.sort(key=str.lower)
-;    scripts = []
+    scripts = []
     for thisfile in files:
         thisfile = thisfile.rstrip()
         print('working on', thisfile.ljust(45), end='\r')
@@ -155,16 +157,19 @@ def main(program_name):
 if __name__ == '__main__':
     global scripts
     global start
-#    ourdir = print("What directory would you like to parse? ")
-#    scripts = []
-    start = os.getcwd()
+    global ourdir
     program_name = os.path.basename(sys.argv[0])
+    print('This program\'s name is', program_name)
+    ourdir = print("What directory would you like to parse? ")
+    ourdir = input('Enter choice ==> ')
+    scripts = []
+    start = os.getcwd()
+
     print('Executing', program_name)
     nfiles_in_scripts, HowManyFiles = main(program_name)
     os.chdir(start)
     print ('This program, {}, reports {} scripts\n'\
-           'among the {} programs in {}.'\
-            format(program_name,nfiles_in_scripts,HowManyFiles))
+           'among the {} programs in {}.'.format(program_name,nfiles_in_scripts,HowManyFiles,ourdir))
     sys.exit(nfiles_in_scripts)
                     
 # end of program.

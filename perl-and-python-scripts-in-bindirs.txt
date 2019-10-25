@@ -56,7 +56,9 @@ pyrit;Python script, ASCII text executable;293
 python-argcomplete-tcsh;a /usr/bin/sh script, ASCII text executable;318
 powerline-lint;Python script, ASCII text executable;343
 tox;Python script, ASCII text executable;362
+2ping;Python script, ASCII text executable;366
 mypy;Python script, ASCII text executable;367
+2ping6;Python script, ASCII text executable;368
 dmypy;Python script, ASCII text executable;369
 thonny;Python script, ASCII text executable;369
 pgzrun;Python script, ASCII text executable;371
@@ -74,6 +76,7 @@ ptdump;Python script, ASCII text executable;377
 pttree;Python script, ASCII text executable;377
 pylint-3.7;Python script, ASCII text executable;377
 uflash;Python script, ASCII text executable;377
+pudb3;Python script, ASCII text executable;378
 cftp;Python script, ASCII text executable;379
 epylint-3.7;Python script, ASCII text executable;379
 f2py3.7;Python script, ASCII text executable;379
@@ -163,6 +166,7 @@ uniconvertor;Python script, ASCII text executable;753
 rst2odt;Python script, ASCII text executable;767
 pastebin;Python script, ASCII text executable;776
 rst2latex;Python script, ASCII text executable;794
+gcc-with-python3;a /usr/bin/sh script, ASCII text executable;814
 python3-cairosvg;Python script, UTF-8 Unicode text executable;824
 onboard-settings;Python script, UTF-8 Unicode text executable;845
 rst2xetex;Python script, ASCII text executable;874
@@ -172,6 +176,8 @@ grep6.pl;Perl script text executable;912
 testr-3.7;Python script, ASCII text executable;960
 redshift-gtk;Python script, ASCII text executable;985
 jsondiff-3.7;Python script, ASCII text executable;1021
+crc32;Perl script text executable;1043
+package-stash-conflicts;Perl script text executable;1051
 cinnamon-json-makepot;Python script, ASCII text executable;1077
 pdfshuffler;Python script, ASCII text executable;1139
 rst2html5;Python script, UTF-8 Unicode text executable;1142
@@ -179,6 +185,7 @@ netaddr3;Python script, ASCII text executable;1161
 htmltree;Perl script text executable;1258
 onboard;Python script, UTF-8 Unicode text executable;1274
 cinnamon-preview-gtk-theme;Python script, ASCII text executable;1309
+gtkdoc-check;Python script, UTF-8 Unicode text executable;1337
 jsonpointer-3.7;Python script, ASCII text executable;1344
 dbilogstrip;Perl script text executable;1380
 scapy3;Python script, ASCII text executable;1473
@@ -191,9 +198,14 @@ rst2odt_prepstyles;Python script, ASCII text executable;1701
 instperf;Python script, ASCII text executable;1745
 python2.7-config;Python script, ASCII text executable;1846
 cinnamon-killer-daemon;Python script, ASCII text executable;1893
+gtkdoc-mkman;Python script, ASCII text executable;1938
+gtkdoc-mkpdf;Python script, ASCII text executable;1938
 dnf-3;Python script, ASCII text executable;1942
+gtkdoc-mkhtml2;Python script, ASCII text executable;1962
 slick-greeter-set-keyboard-layout;Python script, ASCII text executable;1962
+gtkdoc-mkhtml;Python script, ASCII text executable;2012
 ibus-setup-cangjie;Python script, ASCII text executable;2015
+gdbus-codegen;Python script, ASCII text executable;2038
 sliceprint;Perl script text executable;2039
 dnfdragora-updater;Python script, UTF-8 Unicode text executable;2074
 cinnamon-launcher;Python script, ASCII text executable;2087
@@ -202,22 +214,27 @@ abrt-action-check-oops-for-alt-component;Python script, ASCII text executable;21
 cinnamon-file-dialog;Python script, ASCII text executable;2220
 caribou-preferences;Python script, ASCII text executable;2259
 odf2mht;Python script, UTF-8 Unicode text executable;2296
+gtkdoc-fixxref;Python script, ASCII text executable;2332
 binwalk;Python script, ASCII text executable;2334
 lwp-mirror;Perl script text executable;2413
 odf2xml;Python script, UTF-8 Unicode text executable;2455
 foomatic-searchprinter;Perl script text executable;2489
 cinnamon-install-spice;Python script, ASCII text executable;2522
 python-argcomplete-check-easy-install-script;Python script, ASCII text executable;2558
+gtkdoc-rebase;Python script, ASCII text executable;2559
 odfuserfield;Python script, UTF-8 Unicode text executable;2631
 lwp-dump;Perl script text executable;2711
+gtkdoc-scan;Python script, ASCII text executable;2737
 rpmdev-sort;Python script, UTF-8 Unicode text executable;2742
 anaconda-cleanup;Python script, ASCII text executable;2744
 mypaint-ora-thumbnailer;Python script, ASCII text executable;2778
 grog;Perl script text executable;2782
 abrt-action-analyze-vmcore;Python script, ASCII text executable;2818
 mailodf;Python script, UTF-8 Unicode text executable;2818
+gtkdoc-mkdb;Python script, ASCII text executable;2882
 pdfmom;Perl script text executable;2886
 encguess;Perl script text executable;2980
+gtkdoc-scangobj;Python script, ASCII text executable;3036
 blivet-gui-daemon;Python script, ASCII text executable;3109
 nikto-replay;Perl script text executable;3362
 extractres;Perl script text executable;3411
@@ -242,6 +259,8 @@ foomatic-ppd-options;Perl script text executable;4000
 raports;Perl script text executable;4035
 sslstrip;Python script, ASCII text executable;4063
 ifnames;Perl script text executable;4128
+pod2html;Perl script text executable;4134
+bon_csv2txt;Perl script text executable;4242
 pcapinfo;Perl script text executable;4501
 diffpp;Perl script text executable;4548
 json_pp;Perl script text executable;4574
@@ -260,7 +279,6 @@ blender-thumbnailer.py;Python script, ASCII text executable;5336
 rahosts;Perl script text executable;5465
 seapplet;Python script, ASCII text executable;5534
 abrt-action-find-bodhi-update;Python script, ASCII text executable;5587
-pitivi;Python script, ASCII text executable;5708
 roff2dvi;Perl script text executable;5721
 roff2html;Perl script text executable;5721
 roff2pdf;Perl script text executable;5721
@@ -289,15 +307,16 @@ xml_pp;Perl script text executable;8015
 analog;Python script, ASCII text executable;8018
 groffer;Perl script text executable;8050
 piconv;Perl script text executable;8271
-purple-remote;Python script, ASCII text executable;8282
 fpdns;Perl script text executable;8314
 odfmeta;Python script, UTF-8 Unicode text executable;8448
 autoheader;Perl script text executable;8534
+intltool-prepare;Perl script text executable;8605
 orca;Python script, ASCII text executable;8729
 xml2odf;Python script, UTF-8 Unicode text executable;8802
 csv2ods;Python script, UTF-8 Unicode text executable;9058
 abrt-handle-upload;Python script, ASCII text executable;9110
 ogonkify;Perl script text executable;9307
+sgmlspl;Perl script text executable;9656
 abrt-action-notify;Python script, ASCII text executable;9665
 foomatic-ppdfile;Perl script text executable;9788
 shasum;Perl script text executable;9892
@@ -305,7 +324,6 @@ cpanel_json_xs;Perl script text executable;9993
 spectool;Perl script text executable;10234
 lwp-download;Perl script text executable;10292
 rpmdev-rmdevelrpms;Python script, UTF-8 Unicode text executable;10391
-purple-url-handler;Python script, ASCII text executable;10392
 cg_diff;Perl script text executable;10418
 cinnamon-xlet-makepot;Python script, ASCII text executable;10469
 radark;Perl script text executable;10565
@@ -319,6 +337,7 @@ abrt-action-install-debuginfo;Python script, ASCII text executable;12449
 callgrind_control;Perl script text executable;12673
 powerline-daemon;Python script, UTF-8 Unicode text executable;12808
 rpmdev-bumpspec;Python script, ASCII text executable;13147
+gtkdoc-depscan;Python script, ASCII text executable;13207
 nfspysh;Python script, ASCII text executable;13297
 koji;Python script, ASCII text executable;13376
 sensors-conf-convert;Perl script text executable;13647
@@ -328,6 +347,7 @@ composeglyphs;Perl script text executable;14011
 lsusb.py;Python script, ASCII text executable;14273
 mockchain;Python script, ASCII text executable;14765
 pod2man;Perl script text executable;15034
+sgmldiff;Perl script text executable;15070
 rxe_cfg;Perl script text executable;15133
 audit2allow;a /usr/bin/python3 -Es script, ASCII text executable;15197
 GET;Perl script text executable;16200
@@ -338,9 +358,11 @@ runxlrd;Python script, ASCII text executable;16287
 gnome-abrt;Python script, UTF-8 Unicode text executable;16335
 ss2;Python script, ASCII text executable;16966
 autoscan;Perl script text executable;17124
+collateindex.pl;Perl script text executable;17503
 mypaint;Python script, ASCII text executable;17672
 sandbox;a /usr/bin/python3 -Es script, ASCII text executable;18033
 glilypond;Perl script text executable;18406
+gtester-report;Python script, ASCII text executable;18657
 nf2csv;Perl script text executable;18796
 gflags2man-3;Python script, ASCII text executable;18883
 pod2texi;Perl script text executable;19843
@@ -356,9 +378,12 @@ perlmine.pl;Perl script text executable;25382
 snmpconf;Perl script text executable;26051
 mactime;Perl script text executable;27267
 sealert;Python script, ASCII text executable;27559
+gtk-builder-convert;Python script, ASCII text executable;29056
 chem;Perl script text executable;29170
+glib-mkenums;Python script, ASCII text executable;29209
 broctl;Python script, ASCII text executable;29752
 smime_keys;Perl script text executable;31034
+intltool-extract;Perl script text executable;31150
 autom4te;Perl script text executable;32181
 perlfangkuai.pl;Perl script text executable;32818
 cg_annotate;Perl script text executable;33535
@@ -366,10 +391,13 @@ autoupdate;Perl script text executable;33872
 foomatic-printjob;Perl script text executable;35032
 miniterm-3.py;Python script, ASCII text executable;35098
 gv-update-userconfig;Perl script text executable;35134
+intltool-update;Perl script text executable;35553
 examiner;Perl script text executable;36324
 aclocal-1.16;Perl script text executable;36478
 aclocal;Perl script text executable;36478
 trace-summary;Python script, ASCII text executable;38717
+intltool-merge;Perl script text executable;39876
+glib-genmarshal;Python script, ASCII text executable;40947
 dnsenum;Perl script text executable;42609
 callgrind_annotate;Perl script text executable;44737
 sorter;Perl script text executable;50400
@@ -381,6 +409,7 @@ gropdf;Perl script text executable;64417
 flawfinder;Python script, ASCII text executable;92169
 firewall-offline-cmd;Python script, ASCII text executable;103603
 firewall-cmd;Python script, ASCII text executable;116192
+perltidy;Perl script text executable;131792
 html2ps;Perl script text executable;132298
 foomatic-configure;Perl script text executable;136767
 afmtodit;Perl script text executable;165795
