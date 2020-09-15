@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 r'''get_scripts.py, much like its predecessors, 
     will go through all the files in a given "bin" 
     directory (directories of executable programs, such as /usr/bin)
@@ -16,15 +16,15 @@ r'''get_scripts.py, much like its predecessors,
     get_scripts -i / --inputdir: [executable directory, such as /usr/bin or 
                    /usr/local/sbin]
                 -o / --outputdir: [/path/to/directory - for writing output]
+                                  NOTE: Must be fully qualified
                 -v / --verbose: [increase program verbosity, up to 3 -v's
                                  can be used.]
-                -r / --generate-report: [create a report showing 
-                                         statistics of scripts]
+                -r / --generate-report: [create a report showing statistics of scripts]
                 -p [parse the list of scripts into categories:
                    Perl Scripts, Python, sh scripots, Ruby, Lua,
                    whatever...] (NOT YET IMPLEMENTED)
-                -s [sort scripts array by some criterion other than size,
-                    such as progname, progtype,or size]
+                -  s [sort scripts array by some criterion other than size,
+                   such as progname or progtype
 '''
 
 import regex
@@ -37,18 +37,18 @@ import sys
 import os
 
 
-
 __author__ = 'Bryan A. Zimmer'
 __date_of_this_notation__ = 'September 1, 2020 9:50 AM'
 __updated__ = 'September 13, 2020 6:00 PM (Sunday)'
-__program_name__='get_scripts.py'
+__program_name__ = 'get_scripts.py'
 
 
-DEBUG = 1
 HYPHEN = '-'
 
 global args
+global fileinfo
 
+fileinfo=('fileinfo','progname','progtype','size')
 
 # For backward compatibility, a stat_result instance is also accessible
 # as a tuple of at least 10 integers giving the most important (and
@@ -60,6 +60,24 @@ global args
 
 
 fileinfo = namedtuple('fileinfo', 'progname, progtype, size')
+
+
+def startup_housekeeping():
+    r'''move this to startup housekeeping()        
+            we need the name of the output directory from the 
+            argparse routine then something like this'''
+    global args
+
+    if args.outputdir.endswith(os.sep):
+        args.outputdir = args.outputdir[0:-1]
+    replace = HYPHEN
+    sfilename = 'scripts-in'
+    inputdir = regex.sub(os.sep, HYPHEN, args.inputdir)
+    sfile = sfilename + inputdir + '.txt'
+    if args.verbose > 0:
+        print('sfile =', sfile)
+        sleep(2)
+    return sfile
 
 
 def parse_args():
@@ -83,8 +101,8 @@ for the program.', prog=program)
     parser.add_argument('-r', '--generate=report',
                         action='store_true', required=False, default=False,
                         help='Statistics on the output we produce.')
-#    parser.add_argument('-s','--sortby', 
-#                        default='size',required=False,                    
+#    parser.add_argument('-s','--sortby',
+#                        default='size',required=False,
 #                        action='store_true',
 #                        help='sort output file by size, name, or type')
 #    parser.parse_args(['-vvv'])
@@ -102,10 +120,12 @@ class Script:
     pg_type = 'single executable script'
 
     def __init__(self, progname, progtype, size):
+        self.scripts = []
         self.progname = progname
         self.progtype = progtype
         self.size = size
-        self.script = (self.progname, self.progtype, self.size)
+#       self.onescript = (self.progname, self.progtype, self.size)
+        self.finfo = fileinfo(self.progname, self.progtype, self.size)
 
     def process_progtype(self):
         r''' This is the method that refines disparate data
@@ -119,41 +139,25 @@ class Script:
         global args
 #        global fileinfo
 
-        line = self.progtype.rstrip()
+        line = self.finfo.progtype.rstrip()
         n = line.index(':')
+        self.progname = line[0:n]
         x = len(line)
         n += 2  # skip over the colon and following space.
-        line = line[n:x]  # i.e., what the 'file' command returns, 
-                          # minus the program name - everything
-                          # following the ': ' returned by the
-                          # `file' command.
-        save_progtype_line = line
-        try:
-            rindex = line.index(',')
-        except ValueError:
-            rindex = 0
-        else:
-            nindex = len(line)
-            line = line[rindex:nindex]
-        finally:
-            try:
-                rindex2 = line.index(',')
-                # it's really the second comma that we're looking for
-            except ValueError:
-                if (('script' in line) or ('text' in line) or
-                    ('ASCII' in line)):
-                    rindex2 = len(line)
-                else:
-                    rindex2 = 0
-            finally:
-                rindex += rindex2
-        self.progtype = save_progtype_line[0:rindex]
-        if self.progtype.endswith(','):
-            self.progtype = self.progtype[0:-1]
-        self.script = (self.progname, self.progtype, self.size)
-        return self.script
+
+        line = line[n:x]  # i.e., what the 'file' command returns,
+        # minus the program name - everything
+        # following the ': ' returned by the
+        # `file' command.
+        self.progtype = line
+
+        if self.finfo.progtype.endswith(','):
+            self.findo.progtype = self.finfo.progtype[0:-1]
+        self.finfo = fileinfo(self.progname, self.progtype, self.size)
+        return self.finfo
 
 ### -------- End of class Script -------- ###
+
 
 class Scripts:
     global args
@@ -161,62 +165,62 @@ class Scripts:
     pg_type = 'executable scripts'
 
     def __init__(self):
-        self.script_list = []
+        self.scripts = []
         self.len = 0
- 
-    def add(self, onescript):
-        self.script_list.append(onescript)
+
+    def add(self, script):
+        self.scripts.append(script)
 
     def length(self):
-        return len(self.script_list)
+        self.len = len(self.scripts)
+        return self.len
 
-    def writefile(self):
-        r'''move this to startup housekeeping()        
-            we need the name of the output directory from the 
-            argparse routine then something like this'''
-        if args.outputdir.endswith(os.sep):
-            args.outputdir = args.outputdir[0:-2]
-        self.replace = HYPHEN
-        self.sfilename = 'scripts-in'
-        self.inputdir = regex.sub(os.sep, HYPHEN, args.inputdir)
-        self.sfile = self.sfilename + self.inputdir + '.txt'
-        if args.verbose > 1:
-            print('sfile =', self.sfile)
-            sleep(2)
-            
-
-# this should be contingent on what the user wants
-#        self.sorted_scripts=[]
-
+    def writefile(self, sfile):
+        # Though this output is not meant for the end user,
+        # We need to sort by one of the three fields in the
+        # named tuplets,
+        # this should be contingent on what the user wants
+        #        self.sorted_scripts=[]
+        
+        self.sfile = sfile
 # `sort' or `sorted'?
-        self.script_list.sort(key=lambda script: script.size)
-# or:    self.script_list.sort(key=lambda script: script.progtype)
+        self.newlist = self.scripts
+        self.newlist = sorted(self.scripts, key=lambda finfo:\
+                              finfo.size)
+# or:    self.scripts.sort(key=lambda script: key=script.progtype)
 # the third option, alphabetical (ascending)
+# is there by default
+        this = os.getcwd()
+        print(f'We are now at {this}')
+        sleep(2)
+        print('We are writing files at {}.'.format(args.outputdir))
         os.chdir(args.outputdir)
         with open(self.sfile, 'w') as f:
-            for script in self.script_list:
-                s1 = script.progname
+            for onescript in self.newlist:
+                s1 = onescript.progname
                 s1 = s1.rstrip()
-                s2 = script.progtype
+                s2 = onescript.progtype
                 s2 = s2.rstrip()
-                s3 = str(script.size)
+                s3 = str(onescript.size)
                 s3 = s3.rstrip()
                 s = s1 + ';' + s2 + ';' + s3 + '\n'
                 f.write(s)
-                
-        print('\n\n==> Processing complete, {} scripts found.'.\
-              format(self.length()))
-      
+
+        print('\n==> ** Processing complete, {} scripts found. **'.\
+              format(self.length()),end='\n\n')
+
+        return self.len
+
 ### ------- End of Class Scripts ---------- ###
 
-def process_program_list(program_list,scripts):
+
+def process_program_list(program_list, scripts):
     global args
-   
+
     statinfo = namedtuple('statinfo', 'st_mode, st_ino, st_dev, '
                           'st_nlink, st_uid, st_gid, st_size, st_atime,'
                           ' st_mtime, st_ctime')
-    fileinfo = namedtuple('fileinfo','progname, progtype, size')
-    
+
     program_list.sort(key=str.lower)
     # program_list is now in alphabetical order.
 
@@ -224,70 +228,75 @@ def process_program_list(program_list,scripts):
         try:
             program = program.rstrip()
             if args.verbose == 1:
-                print('Working on {}'.format(program).ljust(60),end='\r')
+                print('Working on {}'.format(program).ljust(60), end='\r')
             try:
                 statinfo = os.stat(program)
             except FileNotFoundError:
                 continue
             else:
                 size = statinfo.st_size
+
             command = 'file ' + program
             p = os.popen(command)
-            for line in p:
-                line = line.rstrip()
-                progtype = line
+            line = p.readline()
+            line = line.rstrip()
+            progtype = line
             p.close()
             if (('compiled' in progtype) or ('ELF' in progtype)):
                 continue
             if (('ASCII' in progtype) or ('script' in progtype) or
-                    ('text' in progtype )):
+                    ('text' in progtype)):
                 script = Script(program, progtype, size)
                 onescript = script.process_progtype()
                 scripts.add(onescript)
-           
+
         except FileNotFoundError:
             continue
-        
-        return scripts.script_list
+
+    return scripts.scripts
+
 
 def main():
     global args
 
+    sfile = startup_housekeeping()  # sfile names the file that will
+                                    # be written in the output directory.
     os.chdir(args.inputdir)
 
     program_list = []
     program_list = os.listdir(args.inputdir)
     numprograms = len(program_list)
 
-    
     if args.verbose > 0:
-        print('\n==> There are {} programs in {}.'.\
+        print('\n==> There are {} programs in {}.'.
               format(numprograms, args.inputdir), end='\n\n')
         sleep(2)
-        print('Please be patient. Processing {} programs takes time.'.\
-              format(numprograms))
+    if args.verbose > 0:
+        print('\n==> Please be patient. '
+              'Processing {} programs takes time.'.
+              format(numprograms), end='\n\n')
         sleep(2)
     scripts = Scripts()  # Starts out empty
-   
-    script_list = process_program_list(program_list, scripts)
+
+    script_list=process_program_list(program_list, scripts)
     # the function call populates "scripts" ONLY with
     # "scripts" - Python, Perl, Ruby, php, Bourne Shell, etc.
     # compiled ELF programs are discarded, there are different
     # ways of getting the source code for those.
 
     if args.verbose > 0:
-        print('\n==> There are {} scripts in {}.'.\
+        print('\n==> There are {} scripts in {}.'.
               format(scripts.length(), args.inputdir), end='\n\n')
-        sleep(1)
+        sleep(2)
 
-    scripts.writefile()
+    scripts.writefile(sfile)
     return scripts.length()
-    
+
 
 if __name__ == '__main__':
     # call to parse args ##### (or, probably, NOT some configfile)
     global args
-    args= parse_args()
+    args = parse_args()
     here = os.getcwd()
     rc = main()
     os.chdir(here)
