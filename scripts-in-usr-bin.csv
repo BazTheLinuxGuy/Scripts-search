@@ -1,702 +1,702 @@
-Prog Name, Prog Type, Size
-bond2team,Bourne-Again shell script - ASCII text executable,23289
-bsh,Bourne-Again shell script - ASCII text executable,598
-bsh-console,Bourne-Again shell script - ASCII text executable,554
-build-classpath,Bourne-Again shell script - ASCII text executable,1478
-build-classpath-directory,Bourne-Again shell script - ASCII text executable,313
-build-jar-repository,Bourne-Again shell script - ASCII text executable,1507
-catfish,Bourne-Again shell script - ASCII text executable,69
-check-binary-files,Bourne-Again shell script - ASCII text executable,3264
-clc-clbuild,Bourne-Again shell script - ASCII text executable,982
-clc-lisp,Bourne-Again shell script - ASCII text executable,164
-clc-slime,Bourne-Again shell script - ASCII text executable,165
-clean-binary-files,Bourne-Again shell script - ASCII text executable,13156
-create-jar-links,Bourne-Again shell script - ASCII text executable,4595
-diff-jars,Bourne-Again shell script - ASCII text executable,1238
-dracut,Bourne-Again shell script - ASCII text executable,78558
-esmtp-wrapper,Bourne-Again shell script - ASCII text executable,3378
-fcitx-diagnose,Bourne-Again shell script - ASCII text executable,51321
-find-jar,Bourne-Again shell script - ASCII text executable,696
-fips-finish-install,Bourne-Again shell script - ASCII text executable,981
-fips-mode-setup,Bourne-Again shell script - ASCII text executable,3884
-gcore,Bourne-Again shell script - ASCII text executable,3473
-kdumpctl,Bourne-Again shell script - ASCII text executable,31065
-kernel-install,Bourne-Again shell script - ASCII text executable,5310
-ldd,Bourne-Again shell script - ASCII text executable,5447
-lsinitrd,Bourne-Again shell script - ASCII text executable,10527
-mkinitrd,Bourne-Again shell script - ASCII text executable,6613
-pa-info,Bourne-Again shell script - ASCII text executable,2043
-rebuild-jar-repository,Bourne-Again shell script - ASCII text executable,1752
-renew-dummy-cert,Bourne-Again shell script - ASCII text executable,729
-rsync-ssl,Bourne-Again shell script - ASCII text executable,4910
-ruby,Bourne-Again shell script - ASCII text executable,2409
-run-parts,Bourne-Again shell script - ASCII text executable,1987
-shade-jar,Bourne-Again shell script - ASCII text executable,2463
-sotruss,Bourne-Again shell script - ASCII text executable,4283
-tzselect,Bourne-Again shell script - ASCII text executable,15352
-xfce4-set-wallpaper,Bourne-Again shell script - ASCII text executable,613
-gtstemplate,C source - ASCII text,6113
-bshdoc,Java source - ASCII text,4540
-gcl,Lisp/Scheme program - ASCII text,335
-autopoint,M4 macro processor script - ASCII text,26997
-gettextize,M4 macro processor script - ASCII text,42236
-rakudo-gdb-m,OS/2 REXX batch file - ASCII text,1723
-rakudo-lldb-m,OS/2 REXX batch file - ASCII text,1710
-rakudo-valgrind-m,OS/2 REXX batch file - ASCII text,1516
-aclocal,Perl script text executable,36478
-aclocal-1.16,Perl script text executable,36478
-afmtodit,Perl script text executable,165795
-autoheader,Perl script text executable,8534
-autom4te,Perl script text executable,32181
-automake,Perl script text executable,257949
-automake-1.16,Perl script text executable,257949
-autoreconf,Perl script text executable,21066
-autoscan,Perl script text executable,17124
-autoupdate,Perl script text executable,33872
-callgrind_annotate,Perl script text executable,44658
-callgrind_control,Perl script text executable,12602
-cg_annotate,Perl script text executable,33438
-cg_diff,Perl script text executable,10347
-chem,Perl script text executable,29170
-collateindex.pl,Perl script text executable,17503
-composeglyphs,Perl script text executable,14011
-coqtags,Perl script text executable,1837
-cpanel_json_xs,Perl script text executable,9993
-crc32,Perl script text executable,1043
-dbilogstrip,Perl script text executable,1380
-dbiprof,Perl script text executable,6206
-diffpp,Perl script text executable,4548
-dillo-install-hyphenation,Perl script text executable,5728
-dm_date,Perl script text executable,5513
-dm_zdump,Perl script text executable,5109
-ebappendix,Perl script text executable,30178
-encguess,Perl script text executable,2980
-extractres,Perl script text executable,3411
-findrule,Perl script text executable,3327
-findsmb,Perl script text executable,4604
-foomatic-configure,Perl script text executable,136767
-foomatic-ppd-options,Perl script text executable,4000
-foomatic-ppd-to-xml,Perl script text executable,11907
-foomatic-ppdfile,Perl script text executable,9788
-foomatic-printjob,Perl script text executable,35032
-foomatic-searchprinter,Perl script text executable,2489
-fprofpp,Perl script text executable,6452
-GET,Perl script text executable,16200
-git-cvsserver,Perl script text executable,162743
-glilypond,Perl script text executable,18406
-gperl,Perl script text executable,6639
-gpinyin,Perl script text executable,5129
-groffer,Perl script text executable,8050
-grog,Perl script text executable,2782
-gropdf,Perl script text executable,64417
-h2xs,Perl script text executable,60930
-HEAD,Perl script text executable,16200
-html2ps,Perl script text executable,132298
-htmltree,Perl script text executable,1258
-ifnames,Perl script text executable,4128
-instmodsh,Perl script text executable,4194
-intltool-extract,Perl script text executable,31150
-intltool-merge,Perl script text executable,39876
-intltool-prepare,Perl script text executable,8605
-intltool-update,Perl script text executable,35553
-inxi,Perl script text executable,740531
-isartags,Perl script text executable,2041
-json_pp,Perl script text executable,4896
-json_xs,Perl script text executable,7013
-legotags,Perl script text executable,2218
-lwp-download,Perl script text executable,10292
-lwp-dump,Perl script text executable,2711
-lwp-mirror,Perl script text executable,2413
-lwp-request,Perl script text executable,16200
-mmroff,Perl script text executable,3838
-ms_print,Perl script text executable,24327
-ogonkify,Perl script text executable,9307
-pdfmom,Perl script text executable,2886
-perl-tags,Perl script text executable,1177
-perlcritic,Perl script text executable,41018
-perldoc,Perl script text executable,118
-perlivp,Perl script text executable,10813
-perltidy,Perl script text executable,148475
-piconv,Perl script text executable,8271
-pod2html,Perl script text executable,4134
-pod2man,Perl script text executable,15034
-pod2texi,Perl script text executable,19843
-pod2text,Perl script text executable,10803
-pod2usage,Perl script text executable,4107
-podselect,Perl script text executable,2527
-podspell,Perl script text executable,1248
-POST,Perl script text executable,16200
-preparetips,Perl script text executable,998
-prove,Perl script text executable,13562
-psjoin,Perl script text executable,5218
-ptar,Perl script text executable,3470
-ptardiff,Perl script text executable,2549
-ptargrep,Perl script text executable,4299
-razor-admin,Perl script text executable,834
-razor-check,Perl script text executable,836
-razor-client,Perl script text executable,537
-razor-report,Perl script text executable,840
-razor-revoke,Perl script text executable,840
-require-perl-tags,Perl script text executable,454
-require-perl-tags-packed,Perl script text executable,85716
-roff2dvi,Perl script text executable,5721
-roff2html,Perl script text executable,5721
-roff2pdf,Perl script text executable,5721
-roff2ps,Perl script text executable,5721
-roff2text,Perl script text executable,5721
-roff2x,Perl script text executable,5721
-sensors-conf-convert,Perl script text executable,13647
-sgmldiff,Perl script text executable,15070
-sgmlspl,Perl script text executable,9656
-shasum,Perl script text executable,9892
-sliceprint,Perl script text executable,2039
-spfd.perl-Mail-SPF,Perl script text executable,18392
-spfquery.perl-Mail-SPF,Perl script text executable,22992
-streamzip,Perl script text executable,5428
-texi2any,Perl script text executable,50132
-w3mman,Perl script text executable,1204
-xpath,Perl script text executable,4857
-xscreensaver-getimage-file,Perl script text executable,39552
-xscreensaver-getimage-video,Perl script text executable,4293
-xscreensaver-text,Perl script text executable,27443
-xsubpp,Perl script text executable,5080
-zipdetails,Perl script text executable,51146
-2to3,Python script - ASCII text executable,95
-2to3-3.5,Python script - ASCII text executable,95
-activate-global-python-argcomplete,Python script - ASCII text executable,3455
-anaconda-cleanup,Python script - ASCII text executable,2744
-analog,Python script - ASCII text executable,8099
-audit2allow,Python script - ASCII text executable,15197
-autowrap,Python script - ASCII text executable,390
-black,Python script - ASCII text executable,224
-blackd,Python script - ASCII text executable,225
-blivet-gui,Python script - ASCII text executable,3647
-blivet-gui-daemon,Python script - ASCII text executable,3109
-cairosvg,Python script - ASCII text executable,387
-certbot-3,Python script - ASCII text executable,382
-chardetect,Python script - ASCII text executable,388
-chcat,Python script - ASCII text executable,13843
-cli4,Python script - ASCII text executable,385
-click-man,Python script - ASCII text executable,392
-clubak,Python script - ASCII text executable,395
-cluset,Python script - ASCII text executable,395
-clush,Python script - ASCII text executable,393
-cygdb,Python script - ASCII text executable,381
-cython,Python script - ASCII text executable,383
-cythonize,Python script - ASCII text executable,389
-distro,Python script - ASCII text executable,377
-dmypy,Python script - ASCII text executable,369
-dnf-3,Python script - ASCII text executable,1942
-dnfdragora,Python script - ASCII text executable,5358
-dotenv,Python script - ASCII text executable,401
-dtrace,Python script - ASCII text executable,17065
-easy_install,Python script - ASCII text executable,230
-easy_install-3.8,Python script - ASCII text executable,230
-epylint-3.8,Python script - ASCII text executable,379
-f2py,Python script - ASCII text executable,373
-f2py3,Python script - ASCII text executable,375
-f2py3.8,Python script - ASCII text executable,379
-firewall-cmd,Python script - ASCII text executable,118995
-firewall-config,Python script - ASCII text executable,333082
-firewall-offline-cmd,Python script - ASCII text executable,106841
-flatpak-bisect,Python script - ASCII text executable,7844
-flatpak-coredumpctl,Python script - ASCII text executable,3433
-futurize-3.8,Python script - ASCII text executable,384
-gdbus-codegen,Python script - ASCII text executable,2038
-glib-genmarshal,Python script - ASCII text executable,40977
-glib-mkenums,Python script - ASCII text executable,29209
-gsettings-schema-convert,Python script - ASCII text executable,41831
-gtester-report,Python script - ASCII text executable,19089
-gtk-builder-convert,Python script - ASCII text executable,28760
-gtkdoc-depscan,Python script - ASCII text executable,13207
-gtkdoc-fixxref,Python script - ASCII text executable,2332
-gtkdoc-mkdb,Python script - ASCII text executable,2882
-gtkdoc-mkhtml,Python script - ASCII text executable,2012
-gtkdoc-mkhtml2,Python script - ASCII text executable,2169
-gtkdoc-mkman,Python script - ASCII text executable,1938
-gtkdoc-mkpdf,Python script - ASCII text executable,1938
-gtkdoc-rebase,Python script - ASCII text executable,2559
-gtkdoc-scan,Python script - ASCII text executable,2737
-gtkdoc-scangobj,Python script - ASCII text executable,3287
-hmaptool,Python script - ASCII text executable,9972
-hwasan_symbolize,Python script - ASCII text executable,9582
-ibus-setup-cangjie,Python script - ASCII text executable,2015
-idle2.7,Python script - ASCII text executable,93
-idle3.5,Python script - ASCII text executable,93
-idle3.6,Python script - ASCII text executable,93
-idle3.7,Python script - ASCII text executable,93
-idle3.8,Python script - ASCII text executable,93
-idle3.9,Python script - ASCII text executable,93
-instperf,Python script - ASCII text executable,1745
-ipython,Python script - ASCII text executable,158
-ipython3,Python script - ASCII text executable,158
-isort-3.8,Python script - ASCII text executable,375
-itstool,Python script - ASCII text executable,69166
-jp.py,Python script - ASCII text executable,1678
-jsonlint,Python script - ASCII text executable,1503
-jsonschema,Python script - ASCII text executable,397
-jupyter,Python script - ASCII text executable,397
-jupyter-bundlerextension,Python script - ASCII text executable,419
-jupyter-kernel,Python script - ASCII text executable,417
-jupyter-kernelspec,Python script - ASCII text executable,425
-jupyter-migrate,Python script - ASCII text executable,413
-jupyter-nbconvert,Python script - ASCII text executable,408
-jupyter-nbextension,Python script - ASCII text executable,409
-jupyter-notebook,Python script - ASCII text executable,403
-jupyter-qtconsole,Python script - ASCII text executable,400
-jupyter-run,Python script - ASCII text executable,411
-jupyter-serverextension,Python script - ASCII text executable,417
-jupyter-troubleshoot,Python script - ASCII text executable,423
-jws,Python script - ASCII text executable,371
-lexicon,Python script - ASCII text executable,394
-lexicon-3.8,Python script - ASCII text executable,394
-lsusb.py,Python script - ASCII text executable,14273
-miniterm-3.py,Python script - ASCII text executable,35101
-mu-editor,Python script - ASCII text executable,396
-mypy,Python script - ASCII text executable,367
-mypyc,Python script - ASCII text executable,1421
-ndg_httpclient,Python script - ASCII text executable,420
-nodeset,Python script - ASCII text executable,397
-nudatus,Python script - ASCII text executable,382
-pastebin,Python script - ASCII text executable,776
-pasteurize-3.8,Python script - ASCII text executable,388
-pathfix3.7.py,Python script - ASCII text executable,6717
-pathfix3.8.py,Python script - ASCII text executable,6786
-pathfix3.9.py,Python script - ASCII text executable,6786
-pbr-3,Python script - ASCII text executable,151
-pgzrun,Python script - ASCII text executable,371
-pinout,Python script - ASCII text executable,383
-pip,Python script - ASCII text executable,534
-pip3,Python script - ASCII text executable,534
-pip3.8,Python script - ASCII text executable,534
-pipdeptree,Python script - ASCII text executable,400
-pipenv,Python script - ASCII text executable,392
-pipenv-resolver,Python script - ASCII text executable,410
-pipreqs,Python script - ASCII text executable,382
-powerline-config,Python script - ASCII text executable,582
-powerline-lint,Python script - ASCII text executable,343
-powerline-render,Python script - ASCII text executable,886
-proselint,Python script - ASCII text executable,395
-pt2to3,Python script - ASCII text executable,377
-ptdump,Python script - ASCII text executable,377
-ptrepack,Python script - ASCII text executable,381
-pttree,Python script - ASCII text executable,377
-pudb3,Python script - ASCII text executable,378
-pycodestyle-3.8,Python script - ASCII text executable,402
-pydoc2.7,Python script - ASCII text executable,78
-pydoc3.5,Python script - ASCII text executable,78
-pydoc3.6,Python script - ASCII text executable,78
-pydoc3.7,Python script - ASCII text executable,78
-pydoc3.8,Python script - ASCII text executable,78
-pydoc3.9,Python script - ASCII text executable,78
-pyfinder,Python script - ASCII text executable,399
-pyflakes-3.8,Python script - ASCII text executable,387
-pygmentize,Python script - ASCII text executable,391
-pygtk-demo,Python script - ASCII text executable,189
-pyinotify,Python script - ASCII text executable,392
-pylint-3.8,Python script - ASCII text executable,377
-pyreadelf-3.8,Python script - ASCII text executable,63739
-pyreverse-3.8,Python script - ASCII text executable,383
-pyrsa-decrypt,Python script - ASCII text executable,382
-pyrsa-decrypt-3,Python script - ASCII text executable,382
-pyrsa-decrypt-bigfile,Python script - ASCII text executable,398
-pyrsa-decrypt-bigfile-3,Python script - ASCII text executable,398
-pyrsa-encrypt,Python script - ASCII text executable,382
-pyrsa-encrypt-3,Python script - ASCII text executable,382
-pyrsa-encrypt-bigfile,Python script - ASCII text executable,398
-pyrsa-encrypt-bigfile-3,Python script - ASCII text executable,398
-pyrsa-keygen,Python script - ASCII text executable,380
-pyrsa-keygen-3,Python script - ASCII text executable,380
-pyrsa-priv2pub,Python script - ASCII text executable,384
-pyrsa-priv2pub-3,Python script - ASCII text executable,384
-pyrsa-sign,Python script - ASCII text executable,376
-pyrsa-sign-3,Python script - ASCII text executable,376
-pyrsa-verify,Python script - ASCII text executable,380
-pyrsa-verify-3,Python script - ASCII text executable,380
-pysmt,Python script - ASCII text executable,372
-pysmt-install,Python script - ASCII text executable,388
-pysmt-shell,Python script - ASCII text executable,384
-python-argcomplete-check-easy-install-script,Python script - ASCII text executable,2558
-python2.7-config,Python script - ASCII text executable,1846
-python3-autopep8,Python script - ASCII text executable,387
-pyvenv-3.5,Python script - ASCII text executable,230
-pyvenv-3.6,Python script - ASCII text executable,435
-pyvenv-3.7,Python script - ASCII text executable,435
-register-python-argcomplete,Python script - ASCII text executable,1744
-rpmlint,Python script - ASCII text executable,12038
-rst2html,Python script - ASCII text executable,597
-rst2html4,Python script - ASCII text executable,717
-rst2latex,Python script - ASCII text executable,794
-rst2odt,Python script - ASCII text executable,767
-rst2odt_prepstyles,Python script - ASCII text executable,1701
-rst2pseudoxml,Python script - ASCII text executable,604
-rst2s5,Python script - ASCII text executable,640
-rst2xetex,Python script - ASCII text executable,874
-rst2xml,Python script - ASCII text executable,605
-rstpep2html,Python script - ASCII text executable,673
-runxlrd,Python script - ASCII text executable,16287
-sandbox,Python script - ASCII text executable,18035
-scour,Python script - ASCII text executable,369
-smtpd2.7.py,Python script - ASCII text executable,18542
-sphinx-apidoc,Python script - ASCII text executable,391
-sphinx-autogen,Python script - ASCII text executable,393
-sphinx-build,Python script - ASCII text executable,389
-sphinx-quickstart,Python script - ASCII text executable,399
-stubgen,Python script - ASCII text executable,373
-symilar-3.8,Python script - ASCII text executable,379
-tabulate,Python script - ASCII text executable,387
-testr-3.8,Python script - ASCII text executable,960
-thonny,Python script - ASCII text executable,369
-tldextract,Python script - ASCII text executable,397
-tox,Python script - ASCII text executable,365
-tox-quickstart,Python script - ASCII text executable,387
-uflash,Python script - ASCII text executable,377
-ufs,Python script - ASCII text executable,374
-upload-system-info,Python script - ASCII text executable,605
-vimiv,Python script - ASCII text executable,258
-virtualenv,Python script - ASCII text executable,403
-virtualenv-clone,Python script - ASCII text executable,427
-wheel-3.8,Python script - ASCII text executable,375
-fpaste,Python script - ASCII text executable - with very long lines,28727
-msgfmt2.7.py,Python script - ISO-8859 text executable,6487
-pygettext2.7.py,Python script - ISO-8859 text executable,22082
-pygettext3.6.py,Python script - ISO-8859 text executable,21547
-pygettext3.7.py,Python script - ISO-8859 text executable,21547
-pygettext3.8.py,Python script - ISO-8859 text executable,21535
-pygettext3.9.py,Python script - ISO-8859 text executable,21535
-csv2ods,Python script - UTF-8 Unicode text executable,9058
-gnome-abrt,Python script - UTF-8 Unicode text executable,12085
-gtkdoc-check,Python script - UTF-8 Unicode text executable,1337
-mailodf,Python script - UTF-8 Unicode text executable,2818
-msgfmt3.6.py,Python script - UTF-8 Unicode text executable,7080
-msgfmt3.7.py,Python script - UTF-8 Unicode text executable,7080
-msgfmt3.8.py,Python script - UTF-8 Unicode text executable,7590
-msgfmt3.9.py,Python script - UTF-8 Unicode text executable,7590
-odf2mht,Python script - UTF-8 Unicode text executable,2296
-odf2xhtml,Python script - UTF-8 Unicode text executable,1628
-odf2xml,Python script - UTF-8 Unicode text executable,2455
-odfimgimport,Python script - UTF-8 Unicode text executable,6040
-odflint,Python script - UTF-8 Unicode text executable,7651
-odfmeta,Python script - UTF-8 Unicode text executable,8448
-odfoutline,Python script - UTF-8 Unicode text executable,4577
-odfuserfield,Python script - UTF-8 Unicode text executable,2631
-powerline-daemon,Python script - UTF-8 Unicode text executable,12808
-rpmdiff,Python script - UTF-8 Unicode text executable,10211
-rst2html5,Python script - UTF-8 Unicode text executable,1142
-xml2odf,Python script - UTF-8 Unicode text executable,8802
-rst2man,ReStructuredText file - ASCII text,603
-bsfilter,Ruby script - ASCII text,109035
-erb,Ruby script - ASCII text,5060
-migemo,Ruby script - ASCII text,4777
-migemo-client,Ruby script - ASCII text,2337
-migemo-grep,Ruby script - ASCII text,2523
-migemo-server,Ruby script - ASCII text,4489
-bundle,Ruby script - ASCII text executable,526
-bundler,Ruby script - ASCII text executable,528
-gem,Ruby script - ASCII text executable,542
-irb,Ruby script - ASCII text executable,504
-rdoc,Ruby script - ASCII text executable,510
-ri,Ruby script - ASCII text executable,506
-wordview,Tcl/Tk script - ASCII text executable,9186
-texi2dvi4a2ps,TeX document - ASCII text,21805
-batch,a /usr/bin/sh -e script - ASCII text executable,140
-psmandup,a /usr/bin/sh -e script - ASCII text executable,7897
-psset,a /usr/bin/sh -e script - ASCII text executable,8389
-fixps,a /usr/bin/sh -e script - ASCII text executable - with CR - LF line terminators,12022
-7z,a /usr/bin/sh script - ASCII text executable,43
-alias,a /usr/bin/sh script - ASCII text executable,33
-alsaunmute,a /usr/bin/sh script - ASCII text executable,127
-amuFormat.sh,a /usr/bin/sh script - ASCII text executable,2672
-anaconda-disable-nm-ibft-plugin,a /usr/bin/sh script - ASCII text executable,106
-autoconf,a /usr/bin/sh script - ASCII text executable,14771
-bf_compact,a /usr/bin/sh script - ASCII text executable,2106
-bf_copy,a /usr/bin/sh script - ASCII text executable,1216
-bf_tar,a /usr/bin/sh script - ASCII text executable,1670
-bg,a /usr/bin/sh script - ASCII text executable,30
-blueberry,a /usr/bin/sh script - ASCII text executable,49
-blueberry-tray,a /usr/bin/sh script - ASCII text executable,55
-bzdiff,a /usr/bin/sh script - ASCII text executable,2144
-bzgrep,a /usr/bin/sh script - ASCII text executable,2058
-bzmore,a /usr/bin/sh script - ASCII text executable,1263
-c89,a /usr/bin/sh script - ASCII text executable,228
-c99,a /usr/bin/sh script - ASCII text executable,219
-ca-legacy,a /usr/bin/sh script - ASCII text executable,1648
-catchsegv,a /usr/bin/sh script - ASCII text executable,3289
-cd,a /usr/bin/sh script - ASCII text executable,30
-checkXML,a /usr/bin/sh script - ASCII text executable,107
-clc-register-user-package,a /usr/bin/sh script - ASCII text executable,1406
-clc-unregister-user-package,a /usr/bin/sh script - ASCII text executable,1327
-command,a /usr/bin/sh script - ASCII text executable,35
-cpp2html,a /usr/bin/sh script - ASCII text executable,50
-csslint,a /usr/bin/sh script - ASCII text executable,87
-cvlc,a /usr/bin/sh script - ASCII text executable,48
-cvsbug,a /usr/bin/sh script - ASCII text executable,14035
-db2html,a /usr/bin/sh script - ASCII text executable,1294
-docbook2html,a /usr/bin/sh script - ASCII text executable,41
-docbook2man,a /usr/bin/sh script - ASCII text executable,40
-docbook2rtf,a /usr/bin/sh script - ASCII text executable,40
-docbook2tex,a /usr/bin/sh script - ASCII text executable,40
-docbook2texi,a /usr/bin/sh script - ASCII text executable,41
-docbook2txt,a /usr/bin/sh script - ASCII text executable,40
-dotty,a /usr/bin/sh script - ASCII text executable,2089
-dvipdft,a /usr/bin/sh script - ASCII text executable,2692
-egrep,a /usr/bin/sh script - ASCII text executable,32
-emacs-terminal,a /usr/bin/sh script - ASCII text executable,66
-emacspeak,a /usr/bin/sh script - ASCII text executable,925
-eps2eps,a /usr/bin/sh script - ASCII text executable,643
-eu-make-debug-archive,a /usr/bin/sh script - ASCII text executable,2915
-exo-preferred-applications,a /usr/bin/sh script - ASCII text executable,285
-fc,a /usr/bin/sh script - ASCII text executable,30
-fc-cache,a /usr/bin/sh script - ASCII text executable,139
-fcitx-configtool,a /usr/bin/sh script - ASCII text executable,5662
-fcitx-skin-installer,a /usr/bin/sh script - ASCII text executable,1486
-fg,a /usr/bin/sh script - ASCII text executable,30
-fgrep,a /usr/bin/sh script - ASCII text executable,32
-fp2subc,a /usr/bin/sh script - ASCII text executable,3056
-freetype-config,a /usr/bin/sh script - ASCII text executable,4474
-gdb-add-index,a /usr/bin/sh script - ASCII text executable,4415
-gendiff,a /usr/bin/sh script - ASCII text executable,507
-getopts,a /usr/bin/sh script - ASCII text executable,35
-gettext.sh,a /usr/bin/sh script - ASCII text executable,5191
-ghc-8.6.5,a /usr/bin/sh script - ASCII text executable,246
-ghc-pkg-8.6.5,a /usr/bin/sh script - ASCII text executable,278
-ghci-8.6.5,a /usr/bin/sh script - ASCII text executable,59
-glib-gettextize,a /usr/bin/sh script - ASCII text executable,5389
-gparted,a /usr/bin/sh script - ASCII text executable,6824
-gpg-zip,a /usr/bin/sh script - ASCII text executable,3529
-grub2-kbdcomp,a /usr/bin/sh script - ASCII text executable,1672
-gsnd,a /usr/bin/sh script - ASCII text executable,281
-gstack,a /usr/bin/sh script - ASCII text executable,1068
-gtkdocize,a /usr/bin/sh script - ASCII text executable,4032
-guild,a /usr/bin/sh script - ASCII text executable,2872
-guild2.2,a /usr/bin/sh script - ASCII text executable,2875
-gunzip,a /usr/bin/sh script - ASCII text executable,2350
-gvimtutor,a /usr/bin/sh script - ASCII text executable,147
-gvmap.sh,a /usr/bin/sh script - ASCII text executable,2194
-gzexe,a /usr/bin/sh script - ASCII text executable,6380
-haddock-ghc-8.6.5,a /usr/bin/sh script - ASCII text executable,237
-hash,a /usr/bin/sh script - ASCII text executable,32
-hp2ps,a /usr/bin/sh script - ASCII text executable,210
-hpc,a /usr/bin/sh script - ASCII text executable,208
-hsc2hs,a /usr/bin/sh script - ASCII text executable,947
-ibus-setup,a /usr/bin/sh script - ASCII text executable,1175
-icu-config,a /usr/bin/sh script - ASCII text executable,205
-install-catalog,a /usr/bin/sh script - ASCII text executable,4378
-install-printerdriver,a /usr/bin/sh script - ASCII text executable,99
-intltoolize,a /usr/bin/sh script - ASCII text executable,7155
-ispell,a /usr/bin/sh script - ASCII text executable,992
-java2html,a /usr/bin/sh script - ASCII text executable,51
-jobs,a /usr/bin/sh script - ASCII text executable,32
-jw,a /usr/bin/sh script - ASCII text executable,12742
-koi8rxterm,a /usr/bin/sh script - ASCII text executable,3763
-konsoleprofile,a /usr/bin/sh script - ASCII text executable,1384
-lesspipe.sh,a /usr/bin/sh script - ASCII text executable,3264
-libart2-config,a /usr/bin/sh script - ASCII text executable,1115
-libIDL-config-2,a /usr/bin/sh script - ASCII text executable,2126
-libpng16-config,a /usr/bin/sh script - ASCII text executable,2440
-libreoffice,a /usr/bin/sh script - ASCII text executable,376
-libwmf-fontmap,a /usr/bin/sh script - ASCII text executable,13344
-libyui-terminal,a /usr/bin/sh script - ASCII text executable,1591
-linux-boot-prober,a /usr/bin/sh script - ASCII text executable,5997
-lneato,a /usr/bin/sh script - ASCII text executable,1551
-make-dummy-cert,a /usr/bin/sh script - ASCII text executable,614
-mbim-network,a /usr/bin/sh script - ASCII text executable,11347
-mcheck,a /usr/bin/sh script - ASCII text executable,1683
-mcomp,a /usr/bin/sh script - ASCII text executable,851
-mkfontdir,a /usr/bin/sh script - ASCII text executable,69
-mkindex,a /usr/bin/sh script - ASCII text executable,951
-mkocp,a /usr/bin/sh script - ASCII text executable,175
-mkofm,a /usr/bin/sh script - ASCII text executable,89
-mktexmf,a /usr/bin/sh script - ASCII text executable,4011
-mktexpk,a /usr/bin/sh script - ASCII text executable,9865
-mktextfm,a /usr/bin/sh script - ASCII text executable,5095
-mxtar,a /usr/bin/sh script - ASCII text executable,788
-ncurses6-config,a /usr/bin/sh script - ASCII text executable,7494
-ncursesw6-config,a /usr/bin/sh script - ASCII text executable,7497
-neqn,a /usr/bin/sh script - ASCII text executable,911
-nroff,a /usr/bin/sh script - ASCII text executable,3315
-nvlc,a /usr/bin/sh script - ASCII text executable,50
-oobase,a /usr/bin/sh script - ASCII text executable,43
-oocalc,a /usr/bin/sh script - ASCII text executable,43
-oodraw,a /usr/bin/sh script - ASCII text executable,43
-ooffice,a /usr/bin/sh script - ASCII text executable,36
-ooimpress,a /usr/bin/sh script - ASCII text executable,46
-oomath,a /usr/bin/sh script - ASCII text executable,43
-ooviewdoc,a /usr/bin/sh script - ASCII text executable,43
-oowriter,a /usr/bin/sh script - ASCII text executable,45
-orbit2-config,a /usr/bin/sh script - ASCII text executable,2754
-os-prober,a /usr/bin/sh script - ASCII text executable,5919
-over,a /usr/bin/sh script - ASCII text executable,110
-padsp,a /usr/bin/sh script - ASCII text executable,2233
-padsp-32,a /usr/bin/sh script - ASCII text executable,2229
-pcre-config,a /usr/bin/sh script - ASCII text executable,2142
-pcre2-config,a /usr/bin/sh script - ASCII text executable,1954
-pdf2dsc,a /usr/bin/sh script - ASCII text executable,701
-pdf2ps,a /usr/bin/sh script - ASCII text executable,913
-pdftexi2dvi,a /usr/bin/sh script - ASCII text executable,1250
-pdiff,a /usr/bin/sh script - ASCII text executable,5345
-pinentry,a /usr/bin/sh script - ASCII text executable,2408
-precat,a /usr/bin/sh script - ASCII text executable,5660
-preunzip,a /usr/bin/sh script - ASCII text executable,5660
-prezip,a /usr/bin/sh script - ASCII text executable,5660
-proofgeneral,a /usr/bin/sh script - ASCII text executable,3111
-ps2ascii,a /usr/bin/sh script - ASCII text executable,635
-ps2epsi,a /usr/bin/sh script - ASCII text executable,2756
-ps2pdf,a /usr/bin/sh script - ASCII text executable,276
-ps2pdf12,a /usr/bin/sh script - ASCII text executable,219
-ps2pdf13,a /usr/bin/sh script - ASCII text executable,219
-ps2pdf14,a /usr/bin/sh script - ASCII text executable,219
-ps2pdfwr,a /usr/bin/sh script - ASCII text executable,1082
-ps2ps,a /usr/bin/sh script - ASCII text executable,651
-ps2ps2,a /usr/bin/sh script - ASCII text executable,673
-pylupdate5,a /usr/bin/sh script - ASCII text executable,293
-pyrcc5,a /usr/bin/sh script - ASCII text executable,276
-python-argcomplete-tcsh,a /usr/bin/sh script - ASCII text executable,318
-python3.5m-config,a /usr/bin/sh script - ASCII text executable,177
-python3.6m-config,a /usr/bin/sh script - ASCII text executable,177
-python3.7dm-config,a /usr/bin/sh script - ASCII text executable,179
-python3.7m-config,a /usr/bin/sh script - ASCII text executable,177
-python3.8-config,a /usr/bin/sh script - ASCII text executable,175
-python3.9-config,a /usr/bin/sh script - ASCII text executable,175
-pyuic5,a /usr/bin/sh script - ASCII text executable,272
-qmi-network,a /usr/bin/sh script - ASCII text executable,13523
-qvlc,a /usr/bin/sh script - ASCII text executable,45
-read,a /usr/bin/sh script - ASCII text executable,32
-red,a /usr/bin/sh script - ASCII text executable,92
-rhino,a /usr/bin/sh script - ASCII text executable,610
-run-with-aspell,a /usr/bin/sh script - ASCII text executable,89
-runghc-8.6.5,a /usr/bin/sh script - ASCII text executable,254
-rvlc,a /usr/bin/sh script - ASCII text executable,45
-scp-dbus-service,a /usr/bin/sh script - ASCII text executable,94
-setup-nsssysinit.sh,a /usr/bin/sh script - ASCII text executable,1543
-sgmlwhich,a /usr/bin/sh script - ASCII text executable,269
-skkfep,a /usr/bin/sh script - ASCII text executable,1001
-smbprint,a /usr/bin/sh script - ASCII text executable,2292
-smbtar,a /usr/bin/sh script - ASCII text executable,4926
-source-highlight-esc.sh,a /usr/bin/sh script - ASCII text executable,1021
-spell,a /usr/bin/sh script - ASCII text executable,125
-src-hilite-lesspipe.sh,a /usr/bin/sh script - ASCII text executable,493
-ssh-copy-id,a /usr/bin/sh script - ASCII text executable,10668
-start-pulseaudio-x11,a /usr/bin/sh script - ASCII text executable,1836
-startx,a /usr/bin/sh script - ASCII text executable,5654
-startxfce4,a /usr/bin/sh script - ASCII text executable,3131
-svlc,a /usr/bin/sh script - ASCII text executable,49
-system-config-language,a /usr/bin/sh script - ASCII text executable,91
-system-config-printer,a /usr/bin/sh script - ASCII text executable,99
-system-config-printer-applet,a /usr/bin/sh script - ASCII text executable,84
-tcptraceroute,a /usr/bin/sh script - ASCII text executable,1586
-texi2dvi,a /usr/bin/sh script - ASCII text executable,59831
-texi2pdf,a /usr/bin/sh script - ASCII text executable,1250
-texindex,a /usr/bin/sh script - ASCII text executable,4001
-tgz,a /usr/bin/sh script - ASCII text executable,2299
-thunar-settings,a /usr/bin/sh script - ASCII text executable,337
-type,a /usr/bin/sh script - ASCII text executable,32
-ulimit,a /usr/bin/sh script - ASCII text executable,34
-umask,a /usr/bin/sh script - ASCII text executable,33
-unalias,a /usr/bin/sh script - ASCII text executable,35
-unicode_start,a /usr/bin/sh script - ASCII text executable,2617
-unicode_stop,a /usr/bin/sh script - ASCII text executable,367
-unopkg,a /usr/bin/sh script - ASCII text executable,374
-update-ca-trust,a /usr/bin/sh script - ASCII text executable,1272
-update-crypto-policies,a /usr/bin/sh script - ASCII text executable,87
-update-gap-workspace,a /usr/bin/sh script - ASCII text executable,811
-update-gtk-immodules,a /usr/bin/sh script - ASCII text executable,316
-usb-devices,a /usr/bin/sh script - ASCII text executable,4104
-uxterm,a /usr/bin/sh script - ASCII text executable,3678
-uz,a /usr/bin/sh script - ASCII text executable,2545
-vimdot,a /usr/bin/sh script - ASCII text executable,1086
-vimtutor,a /usr/bin/sh script - ASCII text executable,2124
-vm-support,a /usr/bin/sh script - ASCII text executable,9806
-wait,a /usr/bin/sh script - ASCII text executable,32
-withsctp,a /usr/bin/sh script - ASCII text executable,250
-x86_64-redhat-linux-gnu-pkg-config,a /usr/bin/sh script - ASCII text executable,424
-xdg-desktop-icon,a /usr/bin/sh script - ASCII text executable,21214
-xdg-desktop-menu,a /usr/bin/sh script - ASCII text executable,44571
-xdg-email,a /usr/bin/sh script - ASCII text executable,27307
-xdg-icon-resource,a /usr/bin/sh script - ASCII text executable,30719
-xdg-mime,a /usr/bin/sh script - ASCII text executable,42792
-xdg-open,a /usr/bin/sh script - ASCII text executable,25766
-xdg-screensaver,a /usr/bin/sh script - ASCII text executable,37888
-xdg-settings,a /usr/bin/sh script - ASCII text executable,38628
-xdg-user-dir,a /usr/bin/sh script - ASCII text executable,238
-xdvi,a /usr/bin/sh script - ASCII text executable,1867
-xfce4-panel-profiles,a /usr/bin/sh script - ASCII text executable,113
-xfce4-popup-applicationsmenu,a /usr/bin/sh script - ASCII text executable,1572
-xfce4-popup-directorymenu,a /usr/bin/sh script - ASCII text executable,1500
-xfce4-popup-places,a /usr/bin/sh script - ASCII text executable,1543
-xfce4-popup-whiskermenu,a /usr/bin/sh script - ASCII text executable,1544
-xfce4-popup-windowmenu,a /usr/bin/sh script - ASCII text executable,1497
-xflock4,a /usr/bin/sh script - ASCII text executable,1721
-xminicom,a /usr/bin/sh script - ASCII text executable,1510
-xml2-config,a /usr/bin/sh script - ASCII text executable,1876
-Xorg,a /usr/bin/sh script - ASCII text executable,277
-xorg-x11-fonts-update-dirs,a /usr/bin/sh script - ASCII text executable,1326
-xzdiff,a /usr/bin/sh script - ASCII text executable,6637
-xzgrep,a /usr/bin/sh script - ASCII text executable,5634
-xzless,a /usr/bin/sh script - ASCII text executable,1803
-xzmore,a /usr/bin/sh script - ASCII text executable,2166
-yelp-new,a /usr/bin/sh script - ASCII text executable,4410
-zcat,a /usr/bin/sh script - ASCII text executable,1988
-zcmp,a /usr/bin/sh script - ASCII text executable,1682
-zdiff,a /usr/bin/sh script - ASCII text executable,5884
-zegrep,a /usr/bin/sh script - ASCII text executable,33
-zfgrep,a /usr/bin/sh script - ASCII text executable,33
-zforce,a /usr/bin/sh script - ASCII text executable,2085
-zgrep,a /usr/bin/sh script - ASCII text executable,7596
-zipgrep,a /usr/bin/sh script - ASCII text executable,2957
-zless,a /usr/bin/sh script - ASCII text executable,2210
-zmore,a /usr/bin/sh script - ASCII text executable,1846
-znew,a /usr/bin/sh script - ASCII text executable,4557
-zstdgrep,a /usr/bin/sh script - ASCII text executable,3873
-zstdless,a /usr/bin/sh script - ASCII text executable,34
-mktexlsr,a /usr/bin/sh script - ASCII text executable - with CR - LF line terminators,8233
-icu-config-64,a /usr/bin/sh script - ASCII text executable - with very long lines,22019
-kde4-doxygen.sh,a /usr/bin/sh script - ASCII text executable - with very long lines,29416
-card,a /usr/bin/sh script - ISO-8859 text executable - with CR - LF line terminators,8028
-gitk,a /usr/bin/sh script - UTF-8 Unicode text executable,353481
-fp2preview,awk or perl script - ASCII text,6269
-pcb-prj2lht,awk or perl script - ASCII text,4130
-yelp-build,awk or perl script - ASCII text,20199
-yelp-check,awk or perl script - ASCII text,40289
-bashbug-64,makefile script - ASCII text - with very long lines,7018
-python3.5m-x86_64-config,makefile script - ASCII text - with very long lines,3771
-python3.6m-x86_64-config,makefile script - ASCII text - with very long lines,3630
-python3.7dm-x86_64-config,makefile script - ASCII text - with very long lines,3428
-python3.7m-x86_64-config,makefile script - ASCII text - with very long lines,3435
-python3.8-x86_64-config,makefile script - ASCII text - with very long lines,3620
-python3.9-x86_64-config,makefile script - ASCII text - with very long lines,3620
-pygettext2.py,symbolic link to ./pygettext2.7.py,22082
-pygettext.py,symbolic link to ./pygettext3.py,21535
-jrunscript,symbolic link to /etc/alternatives/jrunscript,18824
-ghostscript,symbolic link to /usr/bin/gs,16440
-mptopdf,symbolic link to /usr/share/texlive/texmf-dist/scripts/context/perl/mptopdf.pl,4229
-bbl2bib,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bbl2bib.pl,7545
-bibdoiadd,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibdoiadd.pl,7518
-bibmradd,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibmradd.pl,4813
-biburl2doi,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/biburl2doi.pl,2816
-bibzbladd,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibzbladd.pl,4623
-ltx2crossrefxml,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/ltx2crossrefxml.pl,10988
-luaotfload-tool,symbolic link to /usr/share/texlive/texmf-dist/scripts/luaotfload/luaotfload-tool.lua,52585
-lwarpmk,symbolic link to /usr/share/texlive/texmf-dist/scripts/lwarp/lwarpmk.lua,27005
-ps4pdf,symbolic link to /usr/share/texlive/texmf-dist/scripts/pst-pdf/ps4pdf,5122
-simpdftex,symbolic link to /usr/share/texlive/texmf-dist/scripts/simpdftex/simpdftex,22096
-allcm,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/allcm.sh,3486
-allneeded,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/allneeded.sh,907
-dvi2fax,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/dvi2fax.sh,1102
-dvired,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/dvired.sh,3085
-fmtutil-sys,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil-sys.sh,933
-fmtutil-user,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil-user.sh,880
-fmtutil,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil.pl,49703
-kpsetool,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/kpsetool.sh,3461
-kpsewhere,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/kpsewhere.sh,1445
-rungs,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/rungs.tlu,897
-texconfig-dialog,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig-dialog.sh,13266
-texconfig-sys,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig-sys.sh,1042
-texconfig,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig.sh,44108
-texlinks,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texlinks.sh,10278
-tlmgr,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/tlmgr.pl,331138
-updmap-sys,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap-sys.sh,929
-updmap-user,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap-user.sh,877
-updmap,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap.pl,87186
-thumbpdf,symbolic link to /usr/share/texlive/texmf-dist/scripts/thumbpdf/thumbpdf.pl,42887
-pygettext3.py,symbolic link to pygettext3.8.py,21535
+Program Name,"Whatis",Program Type,Size in bytes
+bond2team,,Bourne-Again shell script - ASCII text executable, 23289
+bsh,,Bourne-Again shell script - ASCII text executable, 598
+bsh-console,,Bourne-Again shell script - ASCII text executable, 554
+build-classpath,,Bourne-Again shell script - ASCII text executable, 1478
+build-classpath-directory,,Bourne-Again shell script - ASCII text executable, 313
+build-jar-repository,,Bourne-Again shell script - ASCII text executable, 1507
+catfish,,Bourne-Again shell script - ASCII text executable, 69
+check-binary-files,,Bourne-Again shell script - ASCII text executable, 3264
+clc-clbuild,,Bourne-Again shell script - ASCII text executable, 982
+clc-lisp,,Bourne-Again shell script - ASCII text executable, 164
+clc-slime,,Bourne-Again shell script - ASCII text executable, 165
+clean-binary-files,,Bourne-Again shell script - ASCII text executable, 13156
+create-jar-links,,Bourne-Again shell script - ASCII text executable, 4595
+diff-jars,,Bourne-Again shell script - ASCII text executable, 1238
+dracut,,Bourne-Again shell script - ASCII text executable, 78558
+esmtp-wrapper,,Bourne-Again shell script - ASCII text executable, 3378
+fcitx-diagnose,,Bourne-Again shell script - ASCII text executable, 51321
+find-jar,,Bourne-Again shell script - ASCII text executable, 696
+fips-finish-install,,Bourne-Again shell script - ASCII text executable, 981
+fips-mode-setup,,Bourne-Again shell script - ASCII text executable, 3884
+gcore,,Bourne-Again shell script - ASCII text executable, 3473
+kdumpctl,,Bourne-Again shell script - ASCII text executable, 31065
+kernel-install,,Bourne-Again shell script - ASCII text executable, 5310
+ldd,,Bourne-Again shell script - ASCII text executable, 5447
+lsinitrd,,Bourne-Again shell script - ASCII text executable, 10527
+mkinitrd,,Bourne-Again shell script - ASCII text executable, 6613
+pa-info,,Bourne-Again shell script - ASCII text executable, 2043
+rebuild-jar-repository,,Bourne-Again shell script - ASCII text executable, 1752
+renew-dummy-cert,,Bourne-Again shell script - ASCII text executable, 729
+rsync-ssl,,Bourne-Again shell script - ASCII text executable, 4910
+ruby,,Bourne-Again shell script - ASCII text executable, 2409
+run-parts,,Bourne-Again shell script - ASCII text executable, 1987
+shade-jar,,Bourne-Again shell script - ASCII text executable, 2463
+sotruss,,Bourne-Again shell script - ASCII text executable, 4283
+tzselect,,Bourne-Again shell script - ASCII text executable, 15352
+xfce4-set-wallpaper,,Bourne-Again shell script - ASCII text executable, 613
+gtstemplate,,C source - ASCII text, 6113
+bshdoc,,Java source - ASCII text, 4540
+gcl,,Lisp/Scheme program - ASCII text, 335
+autopoint,,M4 macro processor script - ASCII text, 26997
+gettextize,,M4 macro processor script - ASCII text, 42236
+rakudo-gdb-m,,OS/2 REXX batch file - ASCII text, 1723
+rakudo-lldb-m,,OS/2 REXX batch file - ASCII text, 1710
+rakudo-valgrind-m,,OS/2 REXX batch file - ASCII text, 1516
+aclocal,,Perl script text executable, 36478
+aclocal-1.16,,Perl script text executable, 36478
+afmtodit,,Perl script text executable, 165795
+autoheader,,Perl script text executable, 8534
+autom4te,,Perl script text executable, 32181
+automake,,Perl script text executable, 257949
+automake-1.16,,Perl script text executable, 257949
+autoreconf,,Perl script text executable, 21066
+autoscan,,Perl script text executable, 17124
+autoupdate,,Perl script text executable, 33872
+callgrind_annotate,,Perl script text executable, 44658
+callgrind_control,,Perl script text executable, 12602
+cg_annotate,,Perl script text executable, 33438
+cg_diff,,Perl script text executable, 10347
+chem,,Perl script text executable, 29170
+collateindex.pl,,Perl script text executable, 17503
+composeglyphs,,Perl script text executable, 14011
+coqtags,,Perl script text executable, 1837
+cpanel_json_xs,,Perl script text executable, 9993
+crc32,,Perl script text executable, 1043
+dbilogstrip,,Perl script text executable, 1380
+dbiprof,,Perl script text executable, 6206
+diffpp,,Perl script text executable, 4548
+dillo-install-hyphenation,,Perl script text executable, 5728
+dm_date,,Perl script text executable, 5513
+dm_zdump,,Perl script text executable, 5109
+ebappendix,,Perl script text executable, 30178
+encguess,,Perl script text executable, 2980
+extractres,,Perl script text executable, 3411
+findrule,,Perl script text executable, 3327
+findsmb,,Perl script text executable, 4604
+foomatic-configure,,Perl script text executable, 136767
+foomatic-ppd-options,,Perl script text executable, 4000
+foomatic-ppd-to-xml,,Perl script text executable, 11907
+foomatic-ppdfile,,Perl script text executable, 9788
+foomatic-printjob,,Perl script text executable, 35032
+foomatic-searchprinter,,Perl script text executable, 2489
+fprofpp,,Perl script text executable, 6452
+GET,,Perl script text executable, 16200
+git-cvsserver,,Perl script text executable, 162743
+glilypond,,Perl script text executable, 18406
+gperl,,Perl script text executable, 6639
+gpinyin,,Perl script text executable, 5129
+groffer,,Perl script text executable, 8050
+grog,,Perl script text executable, 2782
+gropdf,,Perl script text executable, 64417
+h2xs,,Perl script text executable, 60930
+HEAD,,Perl script text executable, 16200
+html2ps,,Perl script text executable, 132298
+htmltree,,Perl script text executable, 1258
+ifnames,,Perl script text executable, 4128
+instmodsh,,Perl script text executable, 4194
+intltool-extract,,Perl script text executable, 31150
+intltool-merge,,Perl script text executable, 39876
+intltool-prepare,,Perl script text executable, 8605
+intltool-update,,Perl script text executable, 35553
+inxi,,Perl script text executable, 740531
+isartags,,Perl script text executable, 2041
+json_pp,,Perl script text executable, 4896
+json_xs,,Perl script text executable, 7013
+legotags,,Perl script text executable, 2218
+lwp-download,,Perl script text executable, 10292
+lwp-dump,,Perl script text executable, 2711
+lwp-mirror,,Perl script text executable, 2413
+lwp-request,,Perl script text executable, 16200
+mmroff,,Perl script text executable, 3838
+ms_print,,Perl script text executable, 24327
+ogonkify,,Perl script text executable, 9307
+pdfmom,,Perl script text executable, 2886
+perl-tags,,Perl script text executable, 1177
+perlcritic,,Perl script text executable, 41018
+perldoc,,Perl script text executable, 118
+perlivp,,Perl script text executable, 10813
+perltidy,,Perl script text executable, 148475
+piconv,,Perl script text executable, 8271
+pod2html,,Perl script text executable, 4134
+pod2man,,Perl script text executable, 15034
+pod2texi,,Perl script text executable, 19843
+pod2text,,Perl script text executable, 10803
+pod2usage,,Perl script text executable, 4107
+podselect,,Perl script text executable, 2527
+podspell,,Perl script text executable, 1248
+POST,,Perl script text executable, 16200
+preparetips,,Perl script text executable, 998
+prove,,Perl script text executable, 13562
+psjoin,,Perl script text executable, 5218
+ptar,,Perl script text executable, 3470
+ptardiff,,Perl script text executable, 2549
+ptargrep,,Perl script text executable, 4299
+razor-admin,,Perl script text executable, 834
+razor-check,,Perl script text executable, 836
+razor-client,,Perl script text executable, 537
+razor-report,,Perl script text executable, 840
+razor-revoke,,Perl script text executable, 840
+require-perl-tags,,Perl script text executable, 454
+require-perl-tags-packed,,Perl script text executable, 85716
+roff2dvi,,Perl script text executable, 5721
+roff2html,,Perl script text executable, 5721
+roff2pdf,,Perl script text executable, 5721
+roff2ps,,Perl script text executable, 5721
+roff2text,,Perl script text executable, 5721
+roff2x,,Perl script text executable, 5721
+sensors-conf-convert,,Perl script text executable, 13647
+sgmldiff,,Perl script text executable, 15070
+sgmlspl,,Perl script text executable, 9656
+shasum,,Perl script text executable, 9892
+sliceprint,,Perl script text executable, 2039
+spfd.perl-Mail-SPF,,Perl script text executable, 18392
+spfquery.perl-Mail-SPF,,Perl script text executable, 22992
+streamzip,,Perl script text executable, 5428
+texi2any,,Perl script text executable, 50132
+w3mman,,Perl script text executable, 1204
+xpath,,Perl script text executable, 4857
+xscreensaver-getimage-file,,Perl script text executable, 39552
+xscreensaver-getimage-video,,Perl script text executable, 4293
+xscreensaver-text,,Perl script text executable, 27443
+xsubpp,,Perl script text executable, 5080
+zipdetails,,Perl script text executable, 51146
+2to3,,Python script - ASCII text executable, 95
+2to3-3.5,,Python script - ASCII text executable, 95
+activate-global-python-argcomplete,,Python script - ASCII text executable, 3455
+anaconda-cleanup,,Python script - ASCII text executable, 2744
+analog,,Python script - ASCII text executable, 8099
+audit2allow,,Python script - ASCII text executable, 15197
+autowrap,,Python script - ASCII text executable, 390
+black,,Python script - ASCII text executable, 224
+blackd,,Python script - ASCII text executable, 225
+blivet-gui,,Python script - ASCII text executable, 3647
+blivet-gui-daemon,,Python script - ASCII text executable, 3109
+cairosvg,,Python script - ASCII text executable, 387
+certbot-3,,Python script - ASCII text executable, 382
+chardetect,,Python script - ASCII text executable, 388
+chcat,,Python script - ASCII text executable, 13843
+cli4,,Python script - ASCII text executable, 385
+click-man,,Python script - ASCII text executable, 392
+clubak,,Python script - ASCII text executable, 395
+cluset,,Python script - ASCII text executable, 395
+clush,,Python script - ASCII text executable, 393
+cygdb,,Python script - ASCII text executable, 381
+cython,,Python script - ASCII text executable, 383
+cythonize,,Python script - ASCII text executable, 389
+distro,,Python script - ASCII text executable, 377
+dmypy,,Python script - ASCII text executable, 369
+dnf-3,,Python script - ASCII text executable, 1942
+dnfdragora,,Python script - ASCII text executable, 5358
+dotenv,,Python script - ASCII text executable, 401
+dtrace,,Python script - ASCII text executable, 17065
+easy_install,,Python script - ASCII text executable, 230
+easy_install-3.8,,Python script - ASCII text executable, 230
+epylint-3.8,,Python script - ASCII text executable, 379
+f2py,,Python script - ASCII text executable, 373
+f2py3,,Python script - ASCII text executable, 375
+f2py3.8,,Python script - ASCII text executable, 379
+firewall-cmd,,Python script - ASCII text executable, 118995
+firewall-config,,Python script - ASCII text executable, 333082
+firewall-offline-cmd,,Python script - ASCII text executable, 106841
+flatpak-bisect,,Python script - ASCII text executable, 7844
+flatpak-coredumpctl,,Python script - ASCII text executable, 3433
+futurize-3.8,,Python script - ASCII text executable, 384
+gdbus-codegen,,Python script - ASCII text executable, 2038
+glib-genmarshal,,Python script - ASCII text executable, 40977
+glib-mkenums,,Python script - ASCII text executable, 29209
+gsettings-schema-convert,,Python script - ASCII text executable, 41831
+gtester-report,,Python script - ASCII text executable, 19089
+gtk-builder-convert,,Python script - ASCII text executable, 28760
+gtkdoc-depscan,,Python script - ASCII text executable, 13207
+gtkdoc-fixxref,,Python script - ASCII text executable, 2332
+gtkdoc-mkdb,,Python script - ASCII text executable, 2882
+gtkdoc-mkhtml,,Python script - ASCII text executable, 2012
+gtkdoc-mkhtml2,,Python script - ASCII text executable, 2169
+gtkdoc-mkman,,Python script - ASCII text executable, 1938
+gtkdoc-mkpdf,,Python script - ASCII text executable, 1938
+gtkdoc-rebase,,Python script - ASCII text executable, 2559
+gtkdoc-scan,,Python script - ASCII text executable, 2737
+gtkdoc-scangobj,,Python script - ASCII text executable, 3287
+hmaptool,,Python script - ASCII text executable, 9972
+hwasan_symbolize,,Python script - ASCII text executable, 9582
+ibus-setup-cangjie,,Python script - ASCII text executable, 2015
+idle2.7,,Python script - ASCII text executable, 93
+idle3.5,,Python script - ASCII text executable, 93
+idle3.6,,Python script - ASCII text executable, 93
+idle3.7,,Python script - ASCII text executable, 93
+idle3.8,,Python script - ASCII text executable, 93
+idle3.9,,Python script - ASCII text executable, 93
+instperf,,Python script - ASCII text executable, 1745
+ipython,,Python script - ASCII text executable, 158
+ipython3,,Python script - ASCII text executable, 158
+isort-3.8,,Python script - ASCII text executable, 375
+itstool,,Python script - ASCII text executable, 69166
+jp.py,,Python script - ASCII text executable, 1678
+jsonlint,,Python script - ASCII text executable, 1503
+jsonschema,,Python script - ASCII text executable, 397
+jupyter,,Python script - ASCII text executable, 397
+jupyter-bundlerextension,,Python script - ASCII text executable, 419
+jupyter-kernel,,Python script - ASCII text executable, 417
+jupyter-kernelspec,,Python script - ASCII text executable, 425
+jupyter-migrate,,Python script - ASCII text executable, 413
+jupyter-nbconvert,,Python script - ASCII text executable, 408
+jupyter-nbextension,,Python script - ASCII text executable, 409
+jupyter-notebook,,Python script - ASCII text executable, 403
+jupyter-qtconsole,,Python script - ASCII text executable, 400
+jupyter-run,,Python script - ASCII text executable, 411
+jupyter-serverextension,,Python script - ASCII text executable, 417
+jupyter-troubleshoot,,Python script - ASCII text executable, 423
+jws,,Python script - ASCII text executable, 371
+lexicon,,Python script - ASCII text executable, 394
+lexicon-3.8,,Python script - ASCII text executable, 394
+lsusb.py,,Python script - ASCII text executable, 14273
+miniterm-3.py,,Python script - ASCII text executable, 35101
+mu-editor,,Python script - ASCII text executable, 396
+mypy,,Python script - ASCII text executable, 367
+mypyc,,Python script - ASCII text executable, 1421
+ndg_httpclient,,Python script - ASCII text executable, 420
+nodeset,,Python script - ASCII text executable, 397
+nudatus,,Python script - ASCII text executable, 382
+pastebin,,Python script - ASCII text executable, 776
+pasteurize-3.8,,Python script - ASCII text executable, 388
+pathfix3.7.py,,Python script - ASCII text executable, 6717
+pathfix3.8.py,,Python script - ASCII text executable, 6786
+pathfix3.9.py,,Python script - ASCII text executable, 6786
+pbr-3,,Python script - ASCII text executable, 151
+pgzrun,,Python script - ASCII text executable, 371
+pinout,,Python script - ASCII text executable, 383
+pip,,Python script - ASCII text executable, 534
+pip3,,Python script - ASCII text executable, 534
+pip3.8,,Python script - ASCII text executable, 534
+pipdeptree,,Python script - ASCII text executable, 400
+pipenv,,Python script - ASCII text executable, 392
+pipenv-resolver,,Python script - ASCII text executable, 410
+pipreqs,,Python script - ASCII text executable, 382
+powerline-config,,Python script - ASCII text executable, 582
+powerline-lint,,Python script - ASCII text executable, 343
+powerline-render,,Python script - ASCII text executable, 886
+proselint,,Python script - ASCII text executable, 395
+pt2to3,,Python script - ASCII text executable, 377
+ptdump,,Python script - ASCII text executable, 377
+ptrepack,,Python script - ASCII text executable, 381
+pttree,,Python script - ASCII text executable, 377
+pudb3,,Python script - ASCII text executable, 378
+pycodestyle-3.8,,Python script - ASCII text executable, 402
+pydoc2.7,,Python script - ASCII text executable, 78
+pydoc3.5,,Python script - ASCII text executable, 78
+pydoc3.6,,Python script - ASCII text executable, 78
+pydoc3.7,,Python script - ASCII text executable, 78
+pydoc3.8,,Python script - ASCII text executable, 78
+pydoc3.9,,Python script - ASCII text executable, 78
+pyfinder,,Python script - ASCII text executable, 399
+pyflakes-3.8,,Python script - ASCII text executable, 387
+pygmentize,,Python script - ASCII text executable, 391
+pygtk-demo,,Python script - ASCII text executable, 189
+pyinotify,,Python script - ASCII text executable, 392
+pylint-3.8,,Python script - ASCII text executable, 377
+pyreadelf-3.8,,Python script - ASCII text executable, 63739
+pyreverse-3.8,,Python script - ASCII text executable, 383
+pyrsa-decrypt,,Python script - ASCII text executable, 382
+pyrsa-decrypt-3,,Python script - ASCII text executable, 382
+pyrsa-decrypt-bigfile,,Python script - ASCII text executable, 398
+pyrsa-decrypt-bigfile-3,,Python script - ASCII text executable, 398
+pyrsa-encrypt,,Python script - ASCII text executable, 382
+pyrsa-encrypt-3,,Python script - ASCII text executable, 382
+pyrsa-encrypt-bigfile,,Python script - ASCII text executable, 398
+pyrsa-encrypt-bigfile-3,,Python script - ASCII text executable, 398
+pyrsa-keygen,,Python script - ASCII text executable, 380
+pyrsa-keygen-3,,Python script - ASCII text executable, 380
+pyrsa-priv2pub,,Python script - ASCII text executable, 384
+pyrsa-priv2pub-3,,Python script - ASCII text executable, 384
+pyrsa-sign,,Python script - ASCII text executable, 376
+pyrsa-sign-3,,Python script - ASCII text executable, 376
+pyrsa-verify,,Python script - ASCII text executable, 380
+pyrsa-verify-3,,Python script - ASCII text executable, 380
+pysmt,,Python script - ASCII text executable, 372
+pysmt-install,,Python script - ASCII text executable, 388
+pysmt-shell,,Python script - ASCII text executable, 384
+python-argcomplete-check-easy-install-script,,Python script - ASCII text executable, 2558
+python2.7-config,,Python script - ASCII text executable, 1846
+python3-autopep8,,Python script - ASCII text executable, 387
+pyvenv-3.5,,Python script - ASCII text executable, 230
+pyvenv-3.6,,Python script - ASCII text executable, 435
+pyvenv-3.7,,Python script - ASCII text executable, 435
+register-python-argcomplete,,Python script - ASCII text executable, 1744
+rpmlint,,Python script - ASCII text executable, 12038
+rst2html,,Python script - ASCII text executable, 597
+rst2html4,,Python script - ASCII text executable, 717
+rst2latex,,Python script - ASCII text executable, 794
+rst2odt,,Python script - ASCII text executable, 767
+rst2odt_prepstyles,,Python script - ASCII text executable, 1701
+rst2pseudoxml,,Python script - ASCII text executable, 604
+rst2s5,,Python script - ASCII text executable, 640
+rst2xetex,,Python script - ASCII text executable, 874
+rst2xml,,Python script - ASCII text executable, 605
+rstpep2html,,Python script - ASCII text executable, 673
+runxlrd,,Python script - ASCII text executable, 16287
+sandbox,,Python script - ASCII text executable, 18035
+scour,,Python script - ASCII text executable, 369
+smtpd2.7.py,,Python script - ASCII text executable, 18542
+sphinx-apidoc,,Python script - ASCII text executable, 391
+sphinx-autogen,,Python script - ASCII text executable, 393
+sphinx-build,,Python script - ASCII text executable, 389
+sphinx-quickstart,,Python script - ASCII text executable, 399
+stubgen,,Python script - ASCII text executable, 373
+symilar-3.8,,Python script - ASCII text executable, 379
+tabulate,,Python script - ASCII text executable, 387
+testr-3.8,,Python script - ASCII text executable, 960
+thonny,,Python script - ASCII text executable, 369
+tldextract,,Python script - ASCII text executable, 397
+tox,,Python script - ASCII text executable, 365
+tox-quickstart,,Python script - ASCII text executable, 387
+uflash,,Python script - ASCII text executable, 377
+ufs,,Python script - ASCII text executable, 374
+upload-system-info,,Python script - ASCII text executable, 605
+vimiv,,Python script - ASCII text executable, 258
+virtualenv,,Python script - ASCII text executable, 403
+virtualenv-clone,,Python script - ASCII text executable, 427
+wheel-3.8,,Python script - ASCII text executable, 375
+fpaste,,Python script - ASCII text executable - with very long lines, 28727
+msgfmt2.7.py,,Python script - ISO-8859 text executable, 6487
+pygettext2.7.py,,Python script - ISO-8859 text executable, 22082
+pygettext3.6.py,,Python script - ISO-8859 text executable, 21547
+pygettext3.7.py,,Python script - ISO-8859 text executable, 21547
+pygettext3.8.py,,Python script - ISO-8859 text executable, 21535
+pygettext3.9.py,,Python script - ISO-8859 text executable, 21535
+csv2ods,,Python script - UTF-8 Unicode text executable, 9058
+gnome-abrt,,Python script - UTF-8 Unicode text executable, 12085
+gtkdoc-check,,Python script - UTF-8 Unicode text executable, 1337
+mailodf,,Python script - UTF-8 Unicode text executable, 2818
+msgfmt3.6.py,,Python script - UTF-8 Unicode text executable, 7080
+msgfmt3.7.py,,Python script - UTF-8 Unicode text executable, 7080
+msgfmt3.8.py,,Python script - UTF-8 Unicode text executable, 7590
+msgfmt3.9.py,,Python script - UTF-8 Unicode text executable, 7590
+odf2mht,,Python script - UTF-8 Unicode text executable, 2296
+odf2xhtml,,Python script - UTF-8 Unicode text executable, 1628
+odf2xml,,Python script - UTF-8 Unicode text executable, 2455
+odfimgimport,,Python script - UTF-8 Unicode text executable, 6040
+odflint,,Python script - UTF-8 Unicode text executable, 7651
+odfmeta,,Python script - UTF-8 Unicode text executable, 8448
+odfoutline,,Python script - UTF-8 Unicode text executable, 4577
+odfuserfield,,Python script - UTF-8 Unicode text executable, 2631
+powerline-daemon,,Python script - UTF-8 Unicode text executable, 12808
+rpmdiff,,Python script - UTF-8 Unicode text executable, 10211
+rst2html5,,Python script - UTF-8 Unicode text executable, 1142
+xml2odf,,Python script - UTF-8 Unicode text executable, 8802
+rst2man,,ReStructuredText file - ASCII text, 603
+bsfilter,,Ruby script - ASCII text, 109035
+erb,,Ruby script - ASCII text, 5060
+migemo,,Ruby script - ASCII text, 4777
+migemo-client,,Ruby script - ASCII text, 2337
+migemo-grep,,Ruby script - ASCII text, 2523
+migemo-server,,Ruby script - ASCII text, 4489
+bundle,,Ruby script - ASCII text executable, 526
+bundler,,Ruby script - ASCII text executable, 528
+gem,,Ruby script - ASCII text executable, 542
+irb,,Ruby script - ASCII text executable, 504
+rdoc,,Ruby script - ASCII text executable, 510
+ri,,Ruby script - ASCII text executable, 506
+wordview,,Tcl/Tk script - ASCII text executable, 9186
+texi2dvi4a2ps,,TeX document - ASCII text, 21805
+batch,,a /usr/bin/sh -e script - ASCII text executable, 140
+psmandup,,a /usr/bin/sh -e script - ASCII text executable, 7897
+psset,,a /usr/bin/sh -e script - ASCII text executable, 8389
+fixps,,a /usr/bin/sh -e script - ASCII text executable - with CR - LF line terminators, 12022
+7z,,a /usr/bin/sh script - ASCII text executable, 43
+alias,,a /usr/bin/sh script - ASCII text executable, 33
+alsaunmute,,a /usr/bin/sh script - ASCII text executable, 127
+amuFormat.sh,,a /usr/bin/sh script - ASCII text executable, 2672
+anaconda-disable-nm-ibft-plugin,,a /usr/bin/sh script - ASCII text executable, 106
+autoconf,,a /usr/bin/sh script - ASCII text executable, 14771
+bf_compact,,a /usr/bin/sh script - ASCII text executable, 2106
+bf_copy,,a /usr/bin/sh script - ASCII text executable, 1216
+bf_tar,,a /usr/bin/sh script - ASCII text executable, 1670
+bg,,a /usr/bin/sh script - ASCII text executable, 30
+blueberry,,a /usr/bin/sh script - ASCII text executable, 49
+blueberry-tray,,a /usr/bin/sh script - ASCII text executable, 55
+bzdiff,,a /usr/bin/sh script - ASCII text executable, 2144
+bzgrep,,a /usr/bin/sh script - ASCII text executable, 2058
+bzmore,,a /usr/bin/sh script - ASCII text executable, 1263
+c89,,a /usr/bin/sh script - ASCII text executable, 228
+c99,,a /usr/bin/sh script - ASCII text executable, 219
+ca-legacy,,a /usr/bin/sh script - ASCII text executable, 1648
+catchsegv,,a /usr/bin/sh script - ASCII text executable, 3289
+cd,,a /usr/bin/sh script - ASCII text executable, 30
+checkXML,,a /usr/bin/sh script - ASCII text executable, 107
+clc-register-user-package,,a /usr/bin/sh script - ASCII text executable, 1406
+clc-unregister-user-package,,a /usr/bin/sh script - ASCII text executable, 1327
+command,,a /usr/bin/sh script - ASCII text executable, 35
+cpp2html,,a /usr/bin/sh script - ASCII text executable, 50
+csslint,,a /usr/bin/sh script - ASCII text executable, 87
+cvlc,,a /usr/bin/sh script - ASCII text executable, 48
+cvsbug,,a /usr/bin/sh script - ASCII text executable, 14035
+db2html,,a /usr/bin/sh script - ASCII text executable, 1294
+docbook2html,,a /usr/bin/sh script - ASCII text executable, 41
+docbook2man,,a /usr/bin/sh script - ASCII text executable, 40
+docbook2rtf,,a /usr/bin/sh script - ASCII text executable, 40
+docbook2tex,,a /usr/bin/sh script - ASCII text executable, 40
+docbook2texi,,a /usr/bin/sh script - ASCII text executable, 41
+docbook2txt,,a /usr/bin/sh script - ASCII text executable, 40
+dotty,,a /usr/bin/sh script - ASCII text executable, 2089
+dvipdft,,a /usr/bin/sh script - ASCII text executable, 2692
+egrep,,a /usr/bin/sh script - ASCII text executable, 32
+emacs-terminal,,a /usr/bin/sh script - ASCII text executable, 66
+emacspeak,,a /usr/bin/sh script - ASCII text executable, 925
+eps2eps,,a /usr/bin/sh script - ASCII text executable, 643
+eu-make-debug-archive,,a /usr/bin/sh script - ASCII text executable, 2915
+exo-preferred-applications,,a /usr/bin/sh script - ASCII text executable, 285
+fc,,a /usr/bin/sh script - ASCII text executable, 30
+fc-cache,,a /usr/bin/sh script - ASCII text executable, 139
+fcitx-configtool,,a /usr/bin/sh script - ASCII text executable, 5662
+fcitx-skin-installer,,a /usr/bin/sh script - ASCII text executable, 1486
+fg,,a /usr/bin/sh script - ASCII text executable, 30
+fgrep,,a /usr/bin/sh script - ASCII text executable, 32
+fp2subc,,a /usr/bin/sh script - ASCII text executable, 3056
+freetype-config,,a /usr/bin/sh script - ASCII text executable, 4474
+gdb-add-index,,a /usr/bin/sh script - ASCII text executable, 4415
+gendiff,,a /usr/bin/sh script - ASCII text executable, 507
+getopts,,a /usr/bin/sh script - ASCII text executable, 35
+gettext.sh,,a /usr/bin/sh script - ASCII text executable, 5191
+ghc-8.6.5,,a /usr/bin/sh script - ASCII text executable, 246
+ghc-pkg-8.6.5,,a /usr/bin/sh script - ASCII text executable, 278
+ghci-8.6.5,,a /usr/bin/sh script - ASCII text executable, 59
+glib-gettextize,,a /usr/bin/sh script - ASCII text executable, 5389
+gparted,,a /usr/bin/sh script - ASCII text executable, 6824
+gpg-zip,,a /usr/bin/sh script - ASCII text executable, 3529
+grub2-kbdcomp,,a /usr/bin/sh script - ASCII text executable, 1672
+gsnd,,a /usr/bin/sh script - ASCII text executable, 281
+gstack,,a /usr/bin/sh script - ASCII text executable, 1068
+gtkdocize,,a /usr/bin/sh script - ASCII text executable, 4032
+guild,,a /usr/bin/sh script - ASCII text executable, 2872
+guild2.2,,a /usr/bin/sh script - ASCII text executable, 2875
+gunzip,,a /usr/bin/sh script - ASCII text executable, 2350
+gvimtutor,,a /usr/bin/sh script - ASCII text executable, 147
+gvmap.sh,,a /usr/bin/sh script - ASCII text executable, 2194
+gzexe,,a /usr/bin/sh script - ASCII text executable, 6380
+haddock-ghc-8.6.5,,a /usr/bin/sh script - ASCII text executable, 237
+hash,,a /usr/bin/sh script - ASCII text executable, 32
+hp2ps,,a /usr/bin/sh script - ASCII text executable, 210
+hpc,,a /usr/bin/sh script - ASCII text executable, 208
+hsc2hs,,a /usr/bin/sh script - ASCII text executable, 947
+ibus-setup,,a /usr/bin/sh script - ASCII text executable, 1175
+icu-config,,a /usr/bin/sh script - ASCII text executable, 205
+install-catalog,,a /usr/bin/sh script - ASCII text executable, 4378
+install-printerdriver,,a /usr/bin/sh script - ASCII text executable, 99
+intltoolize,,a /usr/bin/sh script - ASCII text executable, 7155
+ispell,,a /usr/bin/sh script - ASCII text executable, 992
+java2html,,a /usr/bin/sh script - ASCII text executable, 51
+jobs,,a /usr/bin/sh script - ASCII text executable, 32
+jw,,a /usr/bin/sh script - ASCII text executable, 12742
+koi8rxterm,,a /usr/bin/sh script - ASCII text executable, 3763
+konsoleprofile,,a /usr/bin/sh script - ASCII text executable, 1384
+lesspipe.sh,,a /usr/bin/sh script - ASCII text executable, 3264
+libart2-config,,a /usr/bin/sh script - ASCII text executable, 1115
+libIDL-config-2,,a /usr/bin/sh script - ASCII text executable, 2126
+libpng16-config,,a /usr/bin/sh script - ASCII text executable, 2440
+libreoffice,,a /usr/bin/sh script - ASCII text executable, 376
+libwmf-fontmap,,a /usr/bin/sh script - ASCII text executable, 13344
+libyui-terminal,,a /usr/bin/sh script - ASCII text executable, 1591
+linux-boot-prober,,a /usr/bin/sh script - ASCII text executable, 5997
+lneato,,a /usr/bin/sh script - ASCII text executable, 1551
+make-dummy-cert,,a /usr/bin/sh script - ASCII text executable, 614
+mbim-network,,a /usr/bin/sh script - ASCII text executable, 11347
+mcheck,,a /usr/bin/sh script - ASCII text executable, 1683
+mcomp,,a /usr/bin/sh script - ASCII text executable, 851
+mkfontdir,,a /usr/bin/sh script - ASCII text executable, 69
+mkindex,,a /usr/bin/sh script - ASCII text executable, 951
+mkocp,,a /usr/bin/sh script - ASCII text executable, 175
+mkofm,,a /usr/bin/sh script - ASCII text executable, 89
+mktexmf,,a /usr/bin/sh script - ASCII text executable, 4011
+mktexpk,,a /usr/bin/sh script - ASCII text executable, 9865
+mktextfm,,a /usr/bin/sh script - ASCII text executable, 5095
+mxtar,,a /usr/bin/sh script - ASCII text executable, 788
+ncurses6-config,,a /usr/bin/sh script - ASCII text executable, 7494
+ncursesw6-config,,a /usr/bin/sh script - ASCII text executable, 7497
+neqn,,a /usr/bin/sh script - ASCII text executable, 911
+nroff,,a /usr/bin/sh script - ASCII text executable, 3315
+nvlc,,a /usr/bin/sh script - ASCII text executable, 50
+oobase,,a /usr/bin/sh script - ASCII text executable, 43
+oocalc,,a /usr/bin/sh script - ASCII text executable, 43
+oodraw,,a /usr/bin/sh script - ASCII text executable, 43
+ooffice,,a /usr/bin/sh script - ASCII text executable, 36
+ooimpress,,a /usr/bin/sh script - ASCII text executable, 46
+oomath,,a /usr/bin/sh script - ASCII text executable, 43
+ooviewdoc,,a /usr/bin/sh script - ASCII text executable, 43
+oowriter,,a /usr/bin/sh script - ASCII text executable, 45
+orbit2-config,,a /usr/bin/sh script - ASCII text executable, 2754
+os-prober,,a /usr/bin/sh script - ASCII text executable, 5919
+over,,a /usr/bin/sh script - ASCII text executable, 110
+padsp,,a /usr/bin/sh script - ASCII text executable, 2233
+padsp-32,,a /usr/bin/sh script - ASCII text executable, 2229
+pcre-config,,a /usr/bin/sh script - ASCII text executable, 2142
+pcre2-config,,a /usr/bin/sh script - ASCII text executable, 1954
+pdf2dsc,,a /usr/bin/sh script - ASCII text executable, 701
+pdf2ps,,a /usr/bin/sh script - ASCII text executable, 913
+pdftexi2dvi,,a /usr/bin/sh script - ASCII text executable, 1250
+pdiff,,a /usr/bin/sh script - ASCII text executable, 5345
+pinentry,,a /usr/bin/sh script - ASCII text executable, 2408
+precat,,a /usr/bin/sh script - ASCII text executable, 5660
+preunzip,,a /usr/bin/sh script - ASCII text executable, 5660
+prezip,,a /usr/bin/sh script - ASCII text executable, 5660
+proofgeneral,,a /usr/bin/sh script - ASCII text executable, 3111
+ps2ascii,,a /usr/bin/sh script - ASCII text executable, 635
+ps2epsi,,a /usr/bin/sh script - ASCII text executable, 2756
+ps2pdf,,a /usr/bin/sh script - ASCII text executable, 276
+ps2pdf12,,a /usr/bin/sh script - ASCII text executable, 219
+ps2pdf13,,a /usr/bin/sh script - ASCII text executable, 219
+ps2pdf14,,a /usr/bin/sh script - ASCII text executable, 219
+ps2pdfwr,,a /usr/bin/sh script - ASCII text executable, 1082
+ps2ps,,a /usr/bin/sh script - ASCII text executable, 651
+ps2ps2,,a /usr/bin/sh script - ASCII text executable, 673
+pylupdate5,,a /usr/bin/sh script - ASCII text executable, 293
+pyrcc5,,a /usr/bin/sh script - ASCII text executable, 276
+python-argcomplete-tcsh,,a /usr/bin/sh script - ASCII text executable, 318
+python3.5m-config,,a /usr/bin/sh script - ASCII text executable, 177
+python3.6m-config,,a /usr/bin/sh script - ASCII text executable, 177
+python3.7dm-config,,a /usr/bin/sh script - ASCII text executable, 179
+python3.7m-config,,a /usr/bin/sh script - ASCII text executable, 177
+python3.8-config,,a /usr/bin/sh script - ASCII text executable, 175
+python3.9-config,,a /usr/bin/sh script - ASCII text executable, 175
+pyuic5,,a /usr/bin/sh script - ASCII text executable, 272
+qmi-network,,a /usr/bin/sh script - ASCII text executable, 13523
+qvlc,,a /usr/bin/sh script - ASCII text executable, 45
+read,,a /usr/bin/sh script - ASCII text executable, 32
+red,,a /usr/bin/sh script - ASCII text executable, 92
+rhino,,a /usr/bin/sh script - ASCII text executable, 610
+run-with-aspell,,a /usr/bin/sh script - ASCII text executable, 89
+runghc-8.6.5,,a /usr/bin/sh script - ASCII text executable, 254
+rvlc,,a /usr/bin/sh script - ASCII text executable, 45
+scp-dbus-service,,a /usr/bin/sh script - ASCII text executable, 94
+setup-nsssysinit.sh,,a /usr/bin/sh script - ASCII text executable, 1543
+sgmlwhich,,a /usr/bin/sh script - ASCII text executable, 269
+skkfep,,a /usr/bin/sh script - ASCII text executable, 1001
+smbprint,,a /usr/bin/sh script - ASCII text executable, 2292
+smbtar,,a /usr/bin/sh script - ASCII text executable, 4926
+source-highlight-esc.sh,,a /usr/bin/sh script - ASCII text executable, 1021
+spell,,a /usr/bin/sh script - ASCII text executable, 125
+src-hilite-lesspipe.sh,,a /usr/bin/sh script - ASCII text executable, 493
+ssh-copy-id,,a /usr/bin/sh script - ASCII text executable, 10668
+start-pulseaudio-x11,,a /usr/bin/sh script - ASCII text executable, 1836
+startx,,a /usr/bin/sh script - ASCII text executable, 5654
+startxfce4,,a /usr/bin/sh script - ASCII text executable, 3131
+svlc,,a /usr/bin/sh script - ASCII text executable, 49
+system-config-language,,a /usr/bin/sh script - ASCII text executable, 91
+system-config-printer,,a /usr/bin/sh script - ASCII text executable, 99
+system-config-printer-applet,,a /usr/bin/sh script - ASCII text executable, 84
+tcptraceroute,,a /usr/bin/sh script - ASCII text executable, 1586
+texi2dvi,,a /usr/bin/sh script - ASCII text executable, 59831
+texi2pdf,,a /usr/bin/sh script - ASCII text executable, 1250
+texindex,,a /usr/bin/sh script - ASCII text executable, 4001
+tgz,,a /usr/bin/sh script - ASCII text executable, 2299
+thunar-settings,,a /usr/bin/sh script - ASCII text executable, 337
+type,,a /usr/bin/sh script - ASCII text executable, 32
+ulimit,,a /usr/bin/sh script - ASCII text executable, 34
+umask,,a /usr/bin/sh script - ASCII text executable, 33
+unalias,,a /usr/bin/sh script - ASCII text executable, 35
+unicode_start,,a /usr/bin/sh script - ASCII text executable, 2617
+unicode_stop,,a /usr/bin/sh script - ASCII text executable, 367
+unopkg,,a /usr/bin/sh script - ASCII text executable, 374
+update-ca-trust,,a /usr/bin/sh script - ASCII text executable, 1272
+update-crypto-policies,,a /usr/bin/sh script - ASCII text executable, 87
+update-gap-workspace,,a /usr/bin/sh script - ASCII text executable, 811
+update-gtk-immodules,,a /usr/bin/sh script - ASCII text executable, 316
+usb-devices,,a /usr/bin/sh script - ASCII text executable, 4104
+uxterm,,a /usr/bin/sh script - ASCII text executable, 3678
+uz,,a /usr/bin/sh script - ASCII text executable, 2545
+vimdot,,a /usr/bin/sh script - ASCII text executable, 1086
+vimtutor,,a /usr/bin/sh script - ASCII text executable, 2124
+vm-support,,a /usr/bin/sh script - ASCII text executable, 9806
+wait,,a /usr/bin/sh script - ASCII text executable, 32
+withsctp,,a /usr/bin/sh script - ASCII text executable, 250
+x86_64-redhat-linux-gnu-pkg-config,,a /usr/bin/sh script - ASCII text executable, 424
+xdg-desktop-icon,,a /usr/bin/sh script - ASCII text executable, 21214
+xdg-desktop-menu,,a /usr/bin/sh script - ASCII text executable, 44571
+xdg-email,,a /usr/bin/sh script - ASCII text executable, 27307
+xdg-icon-resource,,a /usr/bin/sh script - ASCII text executable, 30719
+xdg-mime,,a /usr/bin/sh script - ASCII text executable, 42792
+xdg-open,,a /usr/bin/sh script - ASCII text executable, 25766
+xdg-screensaver,,a /usr/bin/sh script - ASCII text executable, 37888
+xdg-settings,,a /usr/bin/sh script - ASCII text executable, 38628
+xdg-user-dir,,a /usr/bin/sh script - ASCII text executable, 238
+xdvi,,a /usr/bin/sh script - ASCII text executable, 1867
+xfce4-panel-profiles,,a /usr/bin/sh script - ASCII text executable, 113
+xfce4-popup-applicationsmenu,,a /usr/bin/sh script - ASCII text executable, 1572
+xfce4-popup-directorymenu,,a /usr/bin/sh script - ASCII text executable, 1500
+xfce4-popup-places,,a /usr/bin/sh script - ASCII text executable, 1543
+xfce4-popup-whiskermenu,,a /usr/bin/sh script - ASCII text executable, 1544
+xfce4-popup-windowmenu,,a /usr/bin/sh script - ASCII text executable, 1497
+xflock4,,a /usr/bin/sh script - ASCII text executable, 1721
+xminicom,,a /usr/bin/sh script - ASCII text executable, 1510
+xml2-config,,a /usr/bin/sh script - ASCII text executable, 1876
+Xorg,,a /usr/bin/sh script - ASCII text executable, 277
+xorg-x11-fonts-update-dirs,,a /usr/bin/sh script - ASCII text executable, 1326
+xzdiff,,a /usr/bin/sh script - ASCII text executable, 6637
+xzgrep,,a /usr/bin/sh script - ASCII text executable, 5634
+xzless,,a /usr/bin/sh script - ASCII text executable, 1803
+xzmore,,a /usr/bin/sh script - ASCII text executable, 2166
+yelp-new,,a /usr/bin/sh script - ASCII text executable, 4410
+zcat,,a /usr/bin/sh script - ASCII text executable, 1988
+zcmp,,a /usr/bin/sh script - ASCII text executable, 1682
+zdiff,,a /usr/bin/sh script - ASCII text executable, 5884
+zegrep,,a /usr/bin/sh script - ASCII text executable, 33
+zfgrep,,a /usr/bin/sh script - ASCII text executable, 33
+zforce,,a /usr/bin/sh script - ASCII text executable, 2085
+zgrep,,a /usr/bin/sh script - ASCII text executable, 7596
+zipgrep,,a /usr/bin/sh script - ASCII text executable, 2957
+zless,,a /usr/bin/sh script - ASCII text executable, 2210
+zmore,,a /usr/bin/sh script - ASCII text executable, 1846
+znew,,a /usr/bin/sh script - ASCII text executable, 4557
+zstdgrep,,a /usr/bin/sh script - ASCII text executable, 3873
+zstdless,,a /usr/bin/sh script - ASCII text executable, 34
+mktexlsr,,a /usr/bin/sh script - ASCII text executable - with CR - LF line terminators, 8233
+icu-config-64,,a /usr/bin/sh script - ASCII text executable - with very long lines, 22019
+kde4-doxygen.sh,,a /usr/bin/sh script - ASCII text executable - with very long lines, 29416
+card,,a /usr/bin/sh script - ISO-8859 text executable - with CR - LF line terminators, 8028
+gitk,,a /usr/bin/sh script - UTF-8 Unicode text executable, 353481
+fp2preview,,awk or perl script - ASCII text, 6269
+pcb-prj2lht,,awk or perl script - ASCII text, 4130
+yelp-build,,awk or perl script - ASCII text, 20199
+yelp-check,,awk or perl script - ASCII text, 40289
+bashbug-64,,makefile script - ASCII text - with very long lines, 7018
+python3.5m-x86_64-config,,makefile script - ASCII text - with very long lines, 3771
+python3.6m-x86_64-config,,makefile script - ASCII text - with very long lines, 3630
+python3.7dm-x86_64-config,,makefile script - ASCII text - with very long lines, 3428
+python3.7m-x86_64-config,,makefile script - ASCII text - with very long lines, 3435
+python3.8-x86_64-config,,makefile script - ASCII text - with very long lines, 3620
+python3.9-x86_64-config,,makefile script - ASCII text - with very long lines, 3620
+pygettext2.py,,symbolic link to ./pygettext2.7.py, 22082
+pygettext.py,,symbolic link to ./pygettext3.py, 21535
+jrunscript,,symbolic link to /etc/alternatives/jrunscript, 18824
+ghostscript,,symbolic link to /usr/bin/gs, 16440
+mptopdf,,symbolic link to /usr/share/texlive/texmf-dist/scripts/context/perl/mptopdf.pl, 4229
+bbl2bib,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bbl2bib.pl, 7545
+bibdoiadd,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibdoiadd.pl, 7518
+bibmradd,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibmradd.pl, 4813
+biburl2doi,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/biburl2doi.pl, 2816
+bibzbladd,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/bibzbladd.pl, 4623
+ltx2crossrefxml,,symbolic link to /usr/share/texlive/texmf-dist/scripts/crossrefware/ltx2crossrefxml.pl, 10988
+luaotfload-tool,,symbolic link to /usr/share/texlive/texmf-dist/scripts/luaotfload/luaotfload-tool.lua, 52585
+lwarpmk,,symbolic link to /usr/share/texlive/texmf-dist/scripts/lwarp/lwarpmk.lua, 27005
+ps4pdf,,symbolic link to /usr/share/texlive/texmf-dist/scripts/pst-pdf/ps4pdf, 5122
+simpdftex,,symbolic link to /usr/share/texlive/texmf-dist/scripts/simpdftex/simpdftex, 22096
+allcm,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/allcm.sh, 3486
+allneeded,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/allneeded.sh, 907
+dvi2fax,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/dvi2fax.sh, 1102
+dvired,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/dvired.sh, 3085
+fmtutil-sys,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil-sys.sh, 933
+fmtutil-user,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil-user.sh, 880
+fmtutil,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/fmtutil.pl, 49703
+kpsetool,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/kpsetool.sh, 3461
+kpsewhere,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/kpsewhere.sh, 1445
+rungs,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/rungs.tlu, 897
+texconfig-dialog,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig-dialog.sh, 13266
+texconfig-sys,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig-sys.sh, 1042
+texconfig,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texconfig.sh, 44108
+texlinks,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/texlinks.sh, 10278
+tlmgr,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/tlmgr.pl, 331138
+updmap-sys,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap-sys.sh, 929
+updmap-user,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap-user.sh, 877
+updmap,,symbolic link to /usr/share/texlive/texmf-dist/scripts/texlive/updmap.pl, 87186
+thumbpdf,,symbolic link to /usr/share/texlive/texmf-dist/scripts/thumbpdf/thumbpdf.pl, 42887
+pygettext3.py,,symbolic link to pygettext3.8.py, 21535
