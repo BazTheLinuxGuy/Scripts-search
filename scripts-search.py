@@ -1,20 +1,18 @@
 #!/usr/bin/env python
-r'''scripts-search.py, much like its predecessors, 
-    will go through all the files in a given "bin" 
+r'''scripts-search.py, much like its predecessors,
+    will go through all the files in a given "bin"
     directory (directories of executable programs, such as /usr/bin)
-    and sort out which are scripts: sh, POSIX, Python, Perl, Ruby, Lua, 
-    or others. 
-
+    and sort out which are scripts: sh, POSIX, Python, Perl, Ruby, Lua,
+    or others.
     It will use a similar mechnism to do
     this as in "get_scripts_in_usr_bin.py"
-
-    What will be markedly different from the other programs, is the use of 
-    a Script and Scripts classes to hold the scripts found in the chosen 
+    What will be markedly different from the other programs, is the use of
+    a Script and Scripts classes to hold the scripts found in the chosen
     "bin" directory.
-
     Command-line invocation:
-    get_scripts -i / --inputdir: [executable directory, such as /usr/bin or 
-                   /usr/local/sbin]
+    get_scripts -i / --inputdir: [executable directory,
+                                   such as /usr/bin or /usr/local/sbin]
+
                 -o / --outputdir: [/path/to/directory - for writing output]
                                   NOTE: Must be fully qualified
                 -v / --verbose: [increase program verbosity, up to 3 -v's
@@ -22,7 +20,7 @@ r'''scripts-search.py, much like its predecessors,
                 -r / --generate-report: [create a report showing \
                                          statistics of scripts]
                 -p [parse the list of scripts into categories:
-                   Perl Scripts, Python, sh scripots, Ruby, Lua,
+                   Perl Scripts, Python, sh scripts, Ruby, Lua,
                    whatever...] (NOT YET IMPLEMENTED)
                 -s [sort scripts array by program name, program type,\
                     or program size.]
@@ -40,8 +38,8 @@ import os
 
 __author__ = 'Bryan A. Zimmer'
 __date_of_this_notation__ = 'September 1, 2020 9:50 AM'
-__updated__ = 'September 18, 2020 4:25 PM (Friday))'
-__program_name__ = 'get_scripts.py'
+__updated__ = 'October 3, 2020 4:25 PM (Friday))'
+__program_name__ = 'scripts-search.py'
 
 global fileinfo
 
@@ -55,8 +53,7 @@ global fileinfo
 # (from 'stat' documentation).
 
 
-fileinfo = namedtuple('fileinfo', 'progname, whatis, progtype, size')
-
+fileinfo = namedtuple('fileinfo', 'progname, progtype, size')
 
 
 def parse_args():
@@ -79,9 +76,9 @@ def parse_args():
     parser.add_argument('-r', '--report',
                         action='store_true', required=False, default=False,
                         help='Statistics on the output we produce.')
-    parser.add_argument('-s','--sortby', action = 'store',
-                        default='size',required=False, type=str,
-                        choices=['alpha','type','size'],
+    parser.add_argument('-s', '--sortby', action='store',
+                        default='size', required=False, type=str,
+                        choices=['alpha', 'type', 'size'],
                         help='sort output file by size, name, or type')
 #    parser.parse_args(['-vvv'])
 #    Namespace(verbose=3)
@@ -89,9 +86,10 @@ def parse_args():
     args = parser.parse_args()
     return args
 
+
 def startup_housekeeping():
-    r'''move this to startup housekeeping()        
-            we need the name of the output directory from the 
+    r'''move this to startup housekeeping()
+            we need the name of the output directory from the
             argparse routine then something like this'''
 
     if args.outputdir.endswith(os.sep):
@@ -100,28 +98,26 @@ def startup_housekeeping():
     sfilename = 'scripts-in'
     inputdir = regex.sub(os.sep, '-', args.inputdir)
     sfile = sfilename + inputdir + '.csv'
-    
+
     if args.verbose > 0:
         print('sfile =', sfile)
         sleep(2)
     return sfile
 
 
-
 class Script:
     r''' This class creates a 3-tuple for `scripts'
-         that are found in the directory listing returned by 
+         that are found in the directory listing returned by
          os.listdir(inputdir)'''
 
     pg_type = 'single executable script'
 
-    def __init__(self, progname, whatis, progtype, size):
+    def __init__(self, progname, progtype, size):
         self.scripts = []
         self.progname = progname
-        self.whatis = whatis
         self.progtype = progtype
         self.size = size
-        self.finfo = fileinfo(self.progname, self.whatis,
+        self.finfo = fileinfo(self.progname,
                               self.progtype, self.size)
 
     def process_progtype(self):
@@ -142,18 +138,19 @@ class Script:
 
         if self.finfo.progtype.endswith(','):
             self.finfo.progtype = self.finfo.progtype[0:-1]
-        self.finfo = fileinfo(self.progname, self.whatis, self.progtype, self.size)
+        self.finfo = fileinfo(self.progname, self.progtype, self.size)
         return self.finfo
 
 ### -------- End of class Script -------- ###
 
-def straighten_up(datum):
 
+def straighten_up(datum):
 
     anathema = ','
     replacement = ' -'
     datum = regex.sub(anathema, replacement, datum)
     return datum
+
 
 class Scripts:
 
@@ -169,48 +166,43 @@ class Scripts:
     def length(self):
         self.len = len(self.scripts)
         return self.len
-    
 
     def writefile(self, sfile):
         self.sfile = sfile
 #       `sort' or `sorted'?
-        self.newlist = self.scripts # sorted alphabetically
+        self.newlist = self.scripts  # sorted alphabetically
 #       the user gets to choose what field to sort on.
         if args.sortby == 'type':
-            self.newlist = sorted(self.scripts, key=lambda finfo:\
+            self.newlist = sorted(self.scripts, key=lambda finfo:
                                   finfo.progtype)
         elif args.sortby == 'size':
-            self.newlist = sorted(self.scripts, key=lambda finfo:\
+            self.newlist = sorted(self.scripts, key=lambda finfo:
                                   finfo.size)
-        else: # it has to be 'alpha', which it already is sorted to.
+        else:  # it has to be 'alpha', which it already is sorted to.
             pass
-            
+
         os.chdir(args.outputdir)
         with open(self.sfile, 'w') as f:
-            s1='Program Name'
-            s2='"Whatis"'
-            s3='Program Type'
-            s4='Size in bytes'
-            s=s1 + ',' + s2 + ',' + s3 + ',' + s4 + '\n'
+            s1 = 'Program Name'
+            s2 = 'Program Type'
+            s3 = 'Size in bytes'
+            s = s1 + ',' + s2 + ',' + s3 + '\n'
             f.write(s)
             for onescript in self.newlist:
                 s1 = onescript.progname
                 s1 = s1.rstrip()
                 s1 = straighten_up(s1)
-                s2 = onescript.whatis
+                s2 = onescript.progtype
                 s2 = s2.rstrip()
-                s2 = straighten_up(s2)
-                s3 = onescript.progtype
+                s2 = straighten_up(s3)  # change commas to hyphens
+                s3 = str(onescript.size)
                 s3 = s3.rstrip()
-                s3 = straighten_up(s3) # change commas to hyphens
-                s4 = str(onescript.size)
-                s4 = s4.rstrip()
-                s4 = straighten_up(s4)
-                s = s1 + ',' + s2 + ',' + s3  + ', ' + s4 +'\n'
+                s3 = straighten_up(s3)
+                s = s1 + ',' + s2 + ',' + s3 + '\n'
                 f.write(s)
 
-        print('\n==> ** Processing complete, {} scripts found. **'.\
-              format(self.length()),end='\n\n')
+        print('\n==> ** Processing complete, {} scripts found. **'.
+              format(self.length()), end='\n\n')
 
         return self.len
 
@@ -245,29 +237,28 @@ def process_programs(programs, scripts):
             progtype = line
             p.close()
 
-            command = 'whatis ' + program  # + ' > /dev/null'
-            p = os.popen(command)
-            line = p.readline()
-            line = line.rstrip()
-            whatis = line
-            p.close()
-            
-            try:
-                x = whatis.index('- ')
-            except ValueError:
-                pass
-            else:
-                x += 2
-                whatis = whatis[x:]
-                
+#            command = 'whatis ' + program  # + ' > /dev/null'
+#            p = os.popen(command)
+#            line = p.readline()
+#            line = line.rstrip()
+#            whatis = line
+#            p.close()
+#
+#            try:
+#                x = whatis.index('- ')
+#            except ValueError:
+#                pass
+#            else:
+#                x += 2
+#                whatis = whatis[x:]
+
             if (('compiled' in progtype) or ('ELF' in progtype)):
                 continue
             if (('ASCII' in progtype) or ('script' in progtype) or
                     ('text' in progtype)):
-                script = Script(program, whatis, progtype, size)
+                script = Script(program, progtype, size)
                 onescript = script.process_progtype()
                 scripts.add(onescript)
-
 
         except FileNotFoundError:
             continue
@@ -278,7 +269,7 @@ def process_programs(programs, scripts):
 def main():
 
     sfile = startup_housekeeping()  # sfile names the file that will
-                                    # be written in the output directory.
+    # be written in the output directory.
     os.chdir(args.inputdir)
 
     programs = []
@@ -287,17 +278,16 @@ def main():
 
     if args.verbose > 0:
         print('\n==> There are {} programs in {}.'.
-              format(numprograms, args.inputdir), end='\n\n')
+              format(numprograms, args.inputdir))
         sleep(2)
     if args.verbose > 0:
         print('==> Please be patient. '
-
               'Processing {} programs takes time.'.
-              format(numprograms), end='\n\n')
+              format(numprograms))
         sleep(2)
     scripts = Scripts()  # Starts out empty
 
-    script_list=process_programs(programs, scripts)
+    script_list = process_programs(programs, scripts)
     # the function call populates "scripts" ONLY with
     # "scripts" - Python, Perl, Ruby, php, Bourne Shell, etc.
     # compiled ELF programs are discarded, there are different
