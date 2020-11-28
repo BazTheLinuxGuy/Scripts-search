@@ -38,11 +38,12 @@ import os
 
 __author__ = 'Bryan A. Zimmer'
 __date_of_this_notation__ = 'September 1, 2020 9:50 AM'
-__updated__ = 'October 3, 2020 4:25 PM (Friday))'
+__updated__ = 'November 9, 2020 11:05 AM (Monday)'
 __program_name__ = 'scripts-search.py'
 
 global fileinfo
 
+DEBUG=0
 
 # For backward compatibility, a stat_result instance is also accessible
 # as a tuple of at least 10 integers giving the most important (and
@@ -78,7 +79,7 @@ def parse_args():
                         help='Statistics on the output we produce.')
     parser.add_argument('-s', '--sortby', action='store',
                         default='size', required=False, type=str,
-                        choices=['alpha', 'type', 'size'],
+                        choices=['name', 'type', 'size'],
                         help='sort output file by size, name, or type')
 #    parser.parse_args(['-vvv'])
 #    Namespace(verbose=3)
@@ -100,8 +101,9 @@ def startup_housekeeping():
     sfile = sfilename + inputdir + '.csv'
 
     if args.verbose > 0:
-        print('sfile =', sfile)
-        sleep(2)
+        print('The output file(s) will be written to:')
+        print(args.outputdir + os.sep + sfile, end='\n\n')
+#        sleep(2)
     return sfile
 
 
@@ -113,7 +115,7 @@ class Script:
     pg_type = 'single executable script'
 
     def __init__(self, progname, progtype, size):
-        self.scripts = []
+#        self.scripts = []
         self.progname = progname
         self.progtype = progtype
         self.size = size
@@ -185,7 +187,7 @@ class Scripts:
         with open(self.sfile, 'w') as f:
             s1 = 'Program Name'
             s2 = 'Program Type'
-            s3 = 'Size in bytes'
+            s3 = 'Size in Bytes'
             s = s1 + ',' + s2 + ',' + s3 + '\n'
             f.write(s)
             for onescript in self.newlist:
@@ -194,7 +196,7 @@ class Scripts:
                 s1 = straighten_up(s1)
                 s2 = onescript.progtype
                 s2 = s2.rstrip()
-                s2 = straighten_up(s3)  # change commas to hyphens
+                s2 = straighten_up(s2)  # change commas to hyphens
                 s3 = str(onescript.size)
                 s3 = s3.rstrip()
                 s3 = straighten_up(s3)
@@ -229,7 +231,8 @@ def process_programs(programs, scripts):
                 continue
             else:
                 size = statinfo.st_size
-
+                if (DEBUG):
+                    print(f'size of {program} is {size}')
             command = 'file ' + program
             p = os.popen(command)
             line = p.readline()
@@ -265,7 +268,88 @@ def process_programs(programs, scripts):
 
     return scripts.scripts
 
+def report_module(scripts): #taken from the main "Scripts" class.
+    categories = {}
+    i=0
+    type0 = ''    
+    scrp=scripts[0]
+    scripts = sorted(scripts, key=lambda finfo:
+                     finfo.progtype)
 
+#    scripts are now sorted by type.
+#    script = finfo = (progname, progtype, size)
+#    type0 = scripts.scripts["x"].progtype
+#    categories[type0] = (count)
+
+# OK, here we are going to take a chance and pare down the "progtype"
+# to only what
+# precedes the first comma. This is supposed to make things
+# easier to categorize.
+
+
+    newscripts = []
+    for i,scrp in enumerate(scripts):
+        print('{}'.format(scrp.progname), end=' ')
+        type1 = scrp.progtype
+        try:
+            n = type1.index(',')
+        except ValueError:
+            n = len(type1)
+        new_progtype = type1[0:n]
+        if 'symbolic' in new_progtype:
+            continue
+        print(f'new_progtype: {new_progtype}', end=' ')
+        print('Size:', scrp.size)
+#        scr.progtype = new_progtype # this failed, 'can't set attribute', so:
+        progname = scrp.progname
+        progtype = new_progtype
+        size = scrp.size
+        finfo = fileinfo(progname, progtype, size)
+        newscripts.append(finfo)
+#        print('\n' + '-' * 76)
+        
+#    sleep(5)    
+    symlinks=[]
+
+# I wanted to use a dictionary, but the nature of this thing
+# is that an item has THREE, not two, items!
+      
+#    newscripts.sort(key=lambda finfo: finfo.size)
+    
+
+    for scrp in newscripts:
+        if scrp.progtype != type0:
+            type0 = scrp.progtype
+            if not 'symbolic' in type0:
+                categories[type0] = 1
+            else:
+                symlinks.append(scrp)
+        else:
+            categories[type0] += 1
+
+
+    for k,v in categories.items():
+        print('{}'.format(k))
+        if 'symbolic link' in k:
+            continue
+        else:
+            print(f'{k}:'.ljust(50),'Number:',str(v).ljust(20))
+
+# OK, here's the report
+    os.system('clear')
+
+    print('Program type'.ljust(50), 'Number of programs'.ljust(15))
+    lines1 = '_' * 30
+    lines2 = '_' * 15
+    print(lines1.ljust(55), lines2.ljust(15))
+    for k,v in categories.items():
+        print(k.ljust(55), str(v).ljust(15))
+    print('\n\n\n\n\n')    
+    sleep(10)
+
+            
+    return
+    
 def main():
 
     sfile = startup_housekeeping()  # sfile names the file that will
@@ -279,15 +363,16 @@ def main():
     if args.verbose > 0:
         print('\n==> There are {} programs in {}.'.
               format(numprograms, args.inputdir))
-        sleep(2)
-    if args.verbose > 0:
+#        sleep(2)
+#    if args.verbose > 0:
         print('==> Please be patient. '
               'Processing {} programs takes time.'.
               format(numprograms))
-        sleep(2)
+#        sleep(2)
     scripts = Scripts()  # Starts out empty
 
     script_list = process_programs(programs, scripts)
+
     # the function call populates "scripts" ONLY with
     # "scripts" - Python, Perl, Ruby, php, Bourne Shell, etc.
     # compiled ELF programs are discarded, there are different
@@ -296,11 +381,11 @@ def main():
     if args.verbose > 0:
         print('\n==> There are {} scripts in {}.'.
               format(scripts.length(), args.inputdir), end='\n\n')
-        sleep(2)
+#        sleep(2)
 
     scripts.writefile(sfile)
     if args.report:
-        report_module
+        report_module(scripts.scripts)
     return scripts.length()
 
 
@@ -308,5 +393,8 @@ if __name__ == '__main__':
     args = parse_args()
     here = os.getcwd()
     rc = main()
-    os.chdir(here)
+    cmd = 'pushd ' + here + '>& /dev/null'
+    os.system(cmd)
+
     sys.exit(rc)
+
